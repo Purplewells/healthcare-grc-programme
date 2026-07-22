@@ -2,9 +2,6 @@
 Westbridge University Hospitals NHS Foundation Trust is a large NHS healthcare provider delivering acute and specialist healthcare services across the West Midlands region.
 
 ## Problem Statement
-Westbridge University Hospitals NHS Foundation Trust lacks sufficient visibility, governance, and assurance over its cybersecurity risks, making it difficult to demonstrate that patient data, clinical systems, and healthcare services are adequately protected against evolving cyber threats.
-
-## Problem Statement
 
 Westbridge University Hospitals NHS Foundation Trust has undergone rapid digital transformation, introducing complex technologies such as Electronic Patient Records (EPR), cloud services, connected medical devices, and third-party healthcare applications. However, its cybersecurity governance processes have not matured at the same pace.
 
@@ -55,3 +52,41 @@ Create visibility of:
 - Threats
 - Vulnerabilities
 - Business impact
+
+### Improve Compliance
+
+Map controls against:
+
+- UK GDPR
+- Data Protection Act 2018
+- NHS DSP Toolkit
+- NCSC Cyber Assessment Framework
+- ISO/IEC 27001
+
+### Strengthen Security Governance
+
+Introduce:
+- Policies
+- Risk ownership
+- Control ownership
+- Security reporting
+- Audit processes
+
+### Improve Incident Readiness
+
+Ensure the organisation can:
+
+- Detect incidents
+- Respond consistently
+- Preserve evidence
+- Recover quickly
+- Learn from incidents
+
+### Enable Better Decision-Making
+
+Provide leadership with:
+
+- Cyber risk dashboards
+- Compliance status
+- Security maturity metrics
+- Investment priorities
