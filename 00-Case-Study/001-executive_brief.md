@@ -1,4 +1,4 @@
-# Case Briefing: Cyber Security Governance, Risk and Compliance Assessment
+# Cyber Security Governance, Risk and Compliance Assessment
 
 ## Project Title
 
@@ -13,7 +13,7 @@
 
 ## Organisation Profile
 
-Westbridge University Hospitals NHS Foundation Trust is a large NHS healthcare provider delivering acute and specialist healthcare services across the West Midlands region.
+Westbridge University Hospitals Foundation Trust is a large NHS healthcare provider delivering acute and specialist healthcare services across the West Midlands region.
 
 The Trust operates:
 
