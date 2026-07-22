@@ -322,7 +322,41 @@ Project SentinelCare
 └── Executive Presentation
 ```
 
----
+## Assessment Methodology
+
+The assessment evaluates Westbridge University Hospitals Foundation Trust
+against recognised cybersecurity frameworks:
+
+### Frameworks
+
+- NCSC Cyber Assessment Framework (CAF)
+- ISO/IEC 27001:2022
+- NHS Data Security and Protection Toolkit
+
+### Assessment Approach
+
+The assessment considers:
+
+1. Governance
+2. Risk Management
+3. Asset Management
+4. Identity and Access Management
+5. Data Protection
+6. Incident Response
+7. Supplier Security
+8. Security Monitoring
+9. Business Continuity
+10. Security Culture
+
+### Maturity Scale
+
+| Level | Description |
+|-|-|
+| 1 | Initial |
+| 2 | Developing |
+| 3 | Defined |
+| 4 | Managed |
+| 5 | Optimised |
 
 ## Why this makes a strong portfolio project
 
