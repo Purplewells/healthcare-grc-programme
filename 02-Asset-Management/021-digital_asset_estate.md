@@ -1,19 +1,18 @@
-# Asset Register
+# Digital Asset Estate
+
 ## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
 
-**Organisation:** Westbridge University Hospitals Foundation Trust (WUHNFT)  
-**Document Type:** Cyber Asset Register  
-**Owner:** Chief Information Security Officer (CISO)  
-**Classification:** Portfolio Case Study – Fictional Organisation  
-**Version:** 1.0  
-
-
+**Organisation:** Westbridge University Hospitals Foundation Trust (WUHNFT)
+**Document Type:** Asset Management Overview
+**Owner:** Chief Information Security Officer (CISO)
+**Classification:** Portfolio Case Study – Fictional Organisation
+**Version:** 1.1
 
 # 1. Purpose
 
-The Asset Register provides a central view of the technology, information, and business assets used by Westbridge University Hospitals Foundation Trust.
+This document provides a narrative overview of the Trust's asset management approach. The detailed, authoritative asset inventory is maintained in [022-master_assets_register.xlsx](022-master_assets_register.xlsx) — this document should not be treated as a second copy of that data, but as the supporting context for how it is structured, governed, and used.
 
-The purpose of the register is to support:
+The asset register supports:
 
 - Cyber risk management.
 - Information security governance.
@@ -22,8 +21,6 @@ The purpose of the register is to support:
 - Vulnerability management.
 - Business continuity planning.
 - Ownership and accountability.
-
-
 
 # 2. Asset Management Principles
 
@@ -36,9 +33,7 @@ The Trust applies the following principles:
 - Asset information must be regularly reviewed.
 - Changes to assets must follow approved change management processes.
 
-
-
-# 3. Asset Classification
+# 3. Classification Schemes Used in the Register
 
 ## Business Criticality
 
@@ -49,8 +44,6 @@ The Trust applies the following principles:
 | Medium | Loss could cause operational disruption |
 | Low | Limited business impact |
 
-
-
 ## Information Classification
 
 | Classification | Description |
@@ -60,98 +53,24 @@ The Trust applies the following principles:
 | Internal | Information intended for Trust workforce use |
 | Public | Approved information for external release |
 
+# 4. Asset Estate Summary
 
+The register in [022-master_assets_register.xlsx](022-master_assets_register.xlsx) records 35 assets (AST-001 to AST-035) across eight categories:
 
-# 4. Clinical System Assets
+| Category | Asset Count | Examples |
+|---|---:|---|
+| Clinical System | 6 | EPR, LIS, RIS, PACS, Pharmacy Management System, Theatre Management System |
+| Patient-Facing Service | 4 | Patient Portal, Appointment Booking, Remote Consultation, Patient Messaging |
+| Corporate Application | 4 | Microsoft 365, Finance System, HR and Payroll, Learning Management Platform |
+| Infrastructure | 5 | Core Network, On-Premises Data Centres, Azure Cloud Environment, Backup Infrastructure, Security Monitoring Platform |
+| Medical Device | 3 | Radiology Imaging Devices, Patient Monitoring Devices, Laboratory Analysis Equipment |
+| Data Asset | 6 | Patient Records Data, Medical Imaging Data, Laboratory Results Data, Research Data, Staff Records, Financial Data |
+| Identity and Access | 3 | Microsoft Entra ID, Privileged Accounts, Clinical User Accounts |
+| Third-Party Service | 4 | NHS Digital Services, Clinical Software Vendors, Medical Device Suppliers, Managed Security Service Provider |
 
-| Asset ID | Asset Name | Description | Owner | Location | Classification | Criticality |
-|---|---|---|---|---|---|---|
-| AST-001 | Electronic Patient Record (EPR) | Primary system for managing patient clinical information | Chief Medical Officer | Data Centre / Azure | Restricted | Critical |
-| AST-002 | Laboratory Information System (LIS) | Supports pathology testing and laboratory workflows | Pathology Director | Hospital Clinical Network | Restricted | Critical |
-| AST-003 | Radiology Information System (RIS) | Manages radiology workflows and reporting | Radiology Director | Hospital Clinical Network | Restricted | Critical |
-| AST-004 | Picture Archiving and Communication System (PACS) | Stores and manages diagnostic images | Radiology Director | Clinical Data Platform | Restricted | Critical |
-| AST-005 | Pharmacy Management System | Supports medication management and dispensing | Pharmacy Director | Hospital Network | Restricted | Critical |
-| AST-006 | Theatre Management System | Supports surgical scheduling and theatre operations | Theatre Manager | Clinical Network | Confidential | High |
+The majority of clinical, patient-facing, and medical device assets are rated Restricted / Critical, reflecting their direct link to patient safety and care delivery, consistent with the Trust's risk appetite set out in [../01-Discovery/003-business-context.md](../01-Discovery/003-business-context.md).
 
-
-
-# 5. Patient-Facing Digital Services
-
-| Asset ID | Asset Name | Description | Owner | Location | Classification | Criticality |
-|---|---|---|---|---|---|---|
-| AST-007 | Patient Portal | Provides patients access to healthcare services and information | Digital Services Manager | Azure Cloud | Restricted | High |
-| AST-008 | Appointment Booking Platform | Enables online appointment management | Outpatient Services Manager | Azure Cloud | Confidential | High |
-| AST-009 | Remote Consultation Platform | Supports virtual healthcare appointments | Digital Health Lead | Cloud Service | Restricted | High |
-| AST-010 | Patient Messaging Service | Enables communication between patients and clinicians | Clinical Services Manager | Cloud Service | Restricted | High |
-
-
-# 6. Corporate Application Assets
-
-| Asset ID | Asset Name | Description | Owner | Location | Classification | Criticality |
-|---|---|---|---|---|---|---|
-| AST-011 | Microsoft 365 | Email, collaboration, and productivity platform | CDIO | Microsoft Cloud | Confidential | High |
-| AST-012 | Finance System | Financial management and reporting | Finance Director | On-Premises / Cloud | Confidential | Medium |
-| AST-013 | HR and Payroll System | Employee records and payroll processing | HR Director | Cloud Service | Confidential | High |
-| AST-014 | Learning Management Platform | Staff training and compliance records | HR Director | Cloud Service | Internal | Medium |
-
-
-
-# 7. Infrastructure Assets
-
-| Asset ID | Asset Name | Description | Owner | Location | Classification | Criticality |
-|---|---|---|---|---|---|---|
-| AST-015 | Core Network Infrastructure | Network equipment supporting Trust operations | Infrastructure Manager | Hospital Sites | Internal | Critical |
-| AST-016 | On-Premises Data Centres | Hosts clinical and corporate workloads | Infrastructure Manager | Hospital Sites | Confidential | Critical |
-| AST-017 | Azure Cloud Environment | Hosts digital services and workloads | Cloud Service Owner | Microsoft Azure | Confidential | Critical |
-| AST-018 | Backup Infrastructure | Provides backup and recovery capability | Infrastructure Manager | Data Centres | Confidential | Critical |
-| AST-019 | Security Monitoring Platform | Supports security event monitoring | CISO | Security Operations | Internal | High |
-
-
-# 8. Medical Device Assets
-
-| Asset ID | Asset Name | Description | Owner | Location | Classification | Criticality |
-|---|---|---|---|---|---|---|
-| AST-020 | Radiology Imaging Devices | Connected diagnostic imaging equipment | Clinical Engineering Manager | Radiology Departments | Restricted | Critical |
-| AST-021 | Patient Monitoring Devices | Bedside monitoring equipment | Clinical Engineering Manager | Clinical Areas | Restricted | Critical |
-| AST-022 | Laboratory Analysis Equipment | Automated laboratory testing devices | Pathology Director | Laboratories | Restricted | Critical |
-
-
-
-# 9. Data Assets
-
-| Asset ID | Asset Name | Description | Owner | Classification | Criticality |
-|---|---|---|---|---|---|
-| AST-023 | Electronic Patient Records Data | Patient diagnoses, treatments, and clinical history | Information Asset Owner | Restricted | Critical |
-| AST-024 | Medical Imaging Data | Diagnostic images and reports | Radiology Director | Restricted | Critical |
-| AST-025 | Laboratory Results Data | Test results and clinical findings | Pathology Director | Restricted | Critical |
-| AST-026 | Research Data | Clinical trial and research datasets | Research Director | Confidential | High |
-| AST-027 | Staff Records | Employee information and workforce data | HR Director | Confidential | High |
-| AST-028 | Financial Data | Finance and procurement information | Finance Director | Confidential | Medium |
-
-
-
-# 10. Identity and Access Assets
-
-| Asset ID | Asset Name | Description | Owner | Classification | Criticality |
-|---|---|---|---|---|---|
-| AST-029 | Microsoft Entra ID | Identity and authentication platform | Identity Manager | Confidential | Critical |
-| AST-030 | Privileged Accounts | Administrative access accounts | CISO | Restricted | Critical |
-| AST-031 | Clinical User Accounts | Healthcare workforce identities | IAM Manager | Confidential | High |
-
-
-
-# 11. Third-Party Service Assets
-
-| Asset ID | Supplier / Service | Description | Owner | Classification | Criticality |
-|---|---|---|---|---|---|
-| AST-032 | NHS Digital Services | National healthcare connectivity services | CDIO | Restricted | Critical |
-| AST-033 | Clinical Software Vendors | External clinical application providers | Application Owners | Confidential | High |
-| AST-034 | Medical Device Suppliers | Device support and maintenance services | Clinical Engineering Manager | Confidential | High |
-| AST-035 | Managed Security Service Provider | Security monitoring and support | CISO | Internal | High |
-
----
-
-# 12. Asset Ownership Model
+# 5. Asset Ownership Model
 
 | Asset Category | Responsible Owner |
 |---|---|
@@ -164,9 +83,9 @@ The Trust applies the following principles:
 | Security Systems | CISO |
 | Supplier Services | Procurement Director |
 
----
+Individual asset owners are recorded against each asset in the register rather than repeated here.
 
-# 13. Asset Management Risks
+# 6. Asset Management Risks
 
 | Risk ID | Risk | Impact |
 |---|---|---|
@@ -175,11 +94,7 @@ The Trust applies the following principles:
 | AM-003 | Legacy assets may remain unsupported | Increased cyber attack risk |
 | AM-004 | Unclassified information assets | Poor security control selection |
 
----
-
-# 14. Asset Review Requirements
-
-Asset information should be reviewed:
+# 7. Asset Review Requirements
 
 | Activity | Frequency |
 |---|---|
@@ -189,9 +104,7 @@ Asset information should be reviewed:
 | Full asset register review | Annually |
 | Asset changes | Following approved change processes |
 
-
-
-# 15. Expected Outcome
+# 8. Expected Outcome
 
 A mature asset management capability will enable the Trust to:
 
@@ -201,3 +114,10 @@ A mature asset management capability will enable the Trust to:
 - Improve vulnerability management.
 - Support incident response.
 - Demonstrate compliance with NHS and ISO security requirements.
+
+# 9. Relationship to Other Documents
+
+- Authoritative asset data: [022-master_assets_register.xlsx](022-master_assets_register.xlsx).
+- Critical asset summary (derived from the register): `critical_assets.md`.
+- Domain-specific extracts: `application_portfolio.xlsx`, `medical_device_register.xlsx`, `supplier_register.xlsx`.
+- Risk treatment of asset-related findings: `04-Risk-Management`.

@@ -78,7 +78,6 @@ Its technology environment includes:
 * Medical devices connected to clinical networks
 * Third-party healthcare applications
 
----
 
 # 3. Current Cybersecurity Situation
 
@@ -100,7 +99,6 @@ The attack was detected by the security team, but investigation revealed that:
 * Security awareness training completion was below target.
 * Some staff had not completed phishing simulation exercises.
 
----
 
 ### Incident 2 — Legacy Medical Systems
 
@@ -116,7 +114,6 @@ The devices support:
 * Patient monitoring
 * Laboratory analysis
 
----
 
 ### Incident 3 — Third-Party Supplier Risk
 
@@ -128,7 +125,6 @@ A recent review identified:
 * Inconsistent contract security requirements.
 * Limited visibility of supplier access privileges.
 
----
 
 ### Incident 4 — Data Governance Concern
 
@@ -138,7 +134,6 @@ An internal audit identified:
 * Inconsistent patient data classification.
 * Multiple copies of patient reports stored outside approved systems.
 
----
 
 # 4. Cybersecurity Maturity Assessment
 
@@ -154,6 +149,21 @@ An initial assessment against the **NCSC Cyber Assessment Framework (CAF)** iden
 | Supplier Security   | Limited assurance process               |
 | Security Culture    | Awareness training requires improvement |
 | Monitoring          | Limited security metrics                |
+
+Taken together, these findings indicate the Trust sits at an early/developing level of maturity (broadly Level 1–2 on the maturity scale in Section 10) across most CAF outcomes, with no area yet at a consistently Defined or Managed level. This is a starting-point assessment rather than a final position — the Discovery phase exists to establish an evidenced baseline before target maturity levels are agreed with the Board.
+
+## Incident-to-CAF Mapping
+
+| Incident | Primary CAF Objective Affected |
+| --- | --- |
+| 1 — Phishing Attack | C. Detecting Cyber Security Events; A. Managing Security Risk (security culture) |
+| 2 — Legacy Medical Systems | A. Managing Security Risk (asset management) |
+| 3 — Third-Party Supplier Risk | A. Managing Security Risk (supply chain) |
+| 4 — Data Governance Concern | B. Protecting Against Cyber Attack (data security) |
+
+## Risk Appetite
+
+The Trust's risk appetite is defined in [003-business-context.md](003-business-context.md) and should be read alongside this maturity assessment: broadly, the Trust has low tolerance for risks affecting patient safety or clinical service availability, and comparatively greater tolerance for risk in non-critical corporate functions.
 
 ---
 
@@ -187,9 +197,12 @@ The Trust must demonstrate appropriate controls around:
 
 ### NIS Regulations 2018
 
-Applicable due to the critical nature of healthcare services.
+Acute NHS Trusts are typically designated Operators of Essential Services (OES) under the NIS Regulations given the criticality of the services they provide; the NCSC CAF is the assessment methodology used to demonstrate NIS compliance, rather than a separate, unrelated framework (see also [007-assumptions_and_constraints.md](007-assumptions_and_constraints.md)).
 
----
+### Digital Technology Assessment Criteria (DTAC) and Cyber Essentials Plus
+
+Where the Trust procures new digital health technologies, DTAC provides the assurance criteria expected of suppliers. Cyber Essentials Plus is referenced as a baseline technical control standard commonly expected of suppliers and, in some cases, of the Trust itself as part of NHS contractual requirements. Both are supplier/procurement-facing rather than a blanket Trust-wide obligation.
+
 
 # 6. Business Challenge
 
@@ -207,7 +220,10 @@ The Board wants assurance that:
 
 > "The organisation understands its cybersecurity risks and has appropriate controls in place to protect patients, clinical services, and sensitive information."
 
----
+This assurance is provided jointly with the Trust's statutory information governance roles — the Senior Information Risk Owner (SIRO) and Caldicott Guardian — alongside the CISO. Full stakeholder responsibilities are set out in [006-stakeholders.md](006-stakeholders.md).
+
+The legacy medical devices identified in Incident 2 also raise clinical safety considerations, not only technical ones: changes to how these devices are managed should have regard to the clinical safety standards DCB0129 and DCB0160 and relevant MHRA medical device cybersecurity guidance, in addition to standard IT asset and patch management practice.
+
 
 # 7. Your Role
 
@@ -225,7 +241,6 @@ Assess current maturity against:
 * ISO/IEC 27001
 * NHS DSP Toolkit
 
----
 
 ### 2. Develop a Cyber Risk Management Framework
 
@@ -236,7 +251,6 @@ Create:
 * Risk scoring methodology
 * Risk treatment plans
 
----
 
 ### 3. Improve Governance Documentation
 
@@ -248,7 +262,6 @@ Develop:
 * Supplier Security Policy
 * Data Classification Policy
 
----
 
 ### 4. Strengthen Compliance Management
 
@@ -259,7 +272,6 @@ Create:
 * Evidence register
 * Audit tracker
 
----
 
 ### 5. Improve Incident Preparedness
 
@@ -284,22 +296,23 @@ Create dashboards showing:
 
 ---
 
-# 8. Project Objectives
+# 8. Indicative Programme Phasing
 
-The programme aims to achieve:
+The programme is expected to progress through the following broad phases, without committing to fixed dates at this Discovery stage:
 
-| Objective             | Success Measure                     |
-| --------------------- | ----------------------------------- |
-| Improve governance    | Approved cybersecurity policies     |
-| Reduce cyber risk     | Risk treatment plans implemented    |
-| Improve compliance    | DSP Toolkit evidence readiness      |
-| Strengthen resilience | Tested incident response capability |
-| Improve visibility    | Executive cybersecurity dashboard   |
-| Increase awareness    | Improved staff security training    |
+1. **Discovery** — establish the current-state baseline, risk register, and governance documentation (this phase; see [004-project_objectives.md](004-project_objectives.md) and [005-project_scope.md](005-project_scope.md)).
+2. **Risk treatment planning** — agree target maturity levels and prioritised remediation with the Board.
+3. **Assurance embedding** — implement, test, and embed controls into business-as-usual operations, with regular reporting against the objectives set out in this brief.
 
 ---
 
-# 9. Expected Deliverables
+# 9. Project Objectives
+
+The full set of programme objectives, baselines, and CAF outcome mapping is defined in [004-project_objectives.md](004-project_objectives.md). In summary, the programme aims to improve governance, reduce cyber risk, improve regulatory compliance, strengthen resilience, improve executive visibility, and increase workforce awareness.
+
+---
+
+# 10. Expected Deliverables
 
 Your portfolio will contain:
 

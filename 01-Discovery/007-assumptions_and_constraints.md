@@ -107,6 +107,7 @@ The assumptions provide a realistic foundation for the assessment while recognis
 | A-043 | Compliance gaps represent improvement opportunities rather than confirmed regulatory failures. |
 | A-044 | Evidence availability may vary depending on the maturity of existing processes. |
 | A-045 | Framework mappings are performed at a high level for portfolio demonstration purposes. |
+| A-046 | As an acute NHS Trust, WUHNFT is assumed to be designated an Operator of Essential Services (OES) under the NIS Regulations 2018, for which the NCSC CAF is the relevant assessment methodology. |
 
 
 
@@ -114,11 +115,11 @@ The assumptions provide a realistic foundation for the assessment while recognis
 
 | ID | Assumption |
 |---|---|
-| A-046 | The Trust maintains an incident response capability. |
-| A-047 | Incident response procedures exist but require testing and improvement. |
-| A-048 | Cyber incidents may require coordination between technical, clinical, legal, and communication teams. |
-| A-049 | Major incidents may require notification to regulators and external stakeholders. |
-| A-050 | Lessons learned activities are used to improve future resilience. |
+| A-047 | The Trust maintains an incident response capability. |
+| A-048 | Incident response procedures exist but require testing and improvement. |
+| A-049 | Cyber incidents may require coordination between technical, clinical, legal, and communication teams. |
+| A-050 | Major incidents may require notification to regulators and external stakeholders. |
+| A-051 | Lessons learned activities are used to improve future resilience. |
 
 
 
@@ -152,6 +153,7 @@ The assumptions provide a realistic foundation for the assessment while recognis
 | C-008 | Security controls are assessed conceptually rather than through live technical validation. |
 | C-009 | Evidence samples are assumed for demonstration purposes. |
 | C-010 | The assessment does not replace a formal NHS DSP Toolkit submission or ISO certification audit. |
+| C-011 | The assessment aligns to the NHS DSP Toolkit's evidence structure to support future submission readiness but does not itself constitute a DSPT submission (see [005-project_scope.md](005-project_scope.md)). |
 
 
 

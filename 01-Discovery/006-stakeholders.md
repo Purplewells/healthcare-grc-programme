@@ -31,6 +31,9 @@ Understanding stakeholder responsibilities ensures that cyber risks are owned, m
 | Audit and Risk Committee | Board assurance function | Reviews cyber risks, controls, audit findings, and improvement plans | High |
 | Chief Digital Information Officer (CDIO) | Digital strategy owner | Ensures digital services support organisational objectives | High |
 | Chief Information Security Officer (CISO) | Cyber security owner | Leads cyber security strategy, risk management, and security improvement | High |
+| Senior Information Risk Owner (SIRO) | Information risk accountability | Board-level owner of information risk; provides assurance to the Board on information risk management | High |
+| Caldicott Guardian | Patient information governance | Statutory role protecting patient confidentiality and advising on lawful, ethical use of patient information | High |
+| Council of Governors | Foundation Trust governance | Represents patients, staff, and the public; holds Non-Executive Directors to account and provides a further layer of assurance oversight | Medium |
 
 
 ## 3. Clinical Leadership Stakeholders
@@ -97,6 +100,8 @@ Understanding stakeholder responsibilities ensures that cyber risks are owned, m
 |---|---|---|---|
 | NHS England | Healthcare oversight | Provides national guidance and assurance expectations | High |
 | NHS Digital Services | National infrastructure provider | Supports national healthcare platforms and services | High |
+| Integrated Care Board (ICB) | System partner | Coordinates health and care planning and delivery across the local system; day-to-day system oversight | High |
+| Care Quality Commission (CQC) | Healthcare regulator | Regulates and inspects the quality and safety of health and care services, including relevant digital safety considerations | High |
 | Clinical Software Vendors | Technology suppliers | Provide and maintain clinical applications | High |
 | Medical Device Manufacturers | Device suppliers | Maintain connected clinical equipment | High |
 | Microsoft | Cloud and productivity provider | Provides Azure and Microsoft 365 services | Medium |
