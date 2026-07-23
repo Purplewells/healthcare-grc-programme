@@ -14,7 +14,7 @@ This assessment measures WHT's current cyber security capability against the NCS
 
 ### 1.2 Scope
 
-This assessment covers all four CAF objectives and their fourteen constituent principles, applied to the Trust's clinical systems, corporate systems, infrastructure, medical devices, and third-party services as recorded in [../02-Asset-Management/022-master_assets_register.xlsx](../02-Asset-Management/022-master_assets_register.xlsx). It does not include a control-by-control Indicator of Good Practice (IGP) walkthrough — that level of detail is maintained in the working papers behind [../07-Compliance/NCSC_CAF_Assessment.xlsx](../07-Compliance/NCSC_CAF_Assessment.xlsx); this document records the principle-level achievement position and the reasoning behind it.
+This assessment covers all four CAF objectives and their fourteen constituent principles, applied to the Trust's clinical systems, corporate systems, infrastructure, medical devices, and third-party services as recorded in [../02-Asset-Management/022-master_assets_register.xlsx](../02-Asset-Management/022-master_assets_register.xlsx). It does not include a control-by-control Indicator of Good Practice (IGP) walkthrough — that level of detail is maintained in the working papers behind [../07-Compliance/073-ncsc_caf_assessment.xlsx](../07-Compliance/073-ncsc_caf_assessment.xlsx); this document records the principle-level achievement position and the reasoning behind it.
 
 ## 2. Assessment Criteria
 
@@ -65,7 +65,7 @@ Three of six principles (B2, B5, B6) are Not Achieved. Identity and access contr
 
 ### 4.3 Objective C – Detecting Cyber Security Events is Not Achieved
 
-Neither security monitoring nor proactive threat discovery meets CAF expectations. The Trust has a Managed Security Service Provider relationship (asset AST-035) and a Security Monitoring Platform (asset AST-019), but current capability does not yet provide the continuous, correlated visibility CAF requires. (Ref: [../02-Asset-Management/022-master_assets_register.xlsx](../02-Asset-Management/022-master_assets_register.xlsx) AST-019, AST-035; [../09-Security-Operations/064-threat_intelligence](../09-Security-Operations/064-threat_intelligence.md))
+Neither security monitoring nor proactive threat discovery meets CAF expectations. The Trust has a Managed Security Service Provider relationship (asset AST-035) and a Security Monitoring Platform (asset AST-019), but current capability does not yet provide the continuous, correlated visibility CAF requires. (Ref: [../02-Asset-Management/022-master_assets_register.xlsx](../02-Asset-Management/022-master_assets_register.xlsx) AST-019, AST-035; [../09-Security-Operations/094-threat_intelligence](../09-Security-Operations/094-threat_intelligence.md))
 
 ### 4.4 Objective D – Minimising the Impact Has a Documented but Unproven Foundation
 
@@ -79,7 +79,7 @@ An Incident Response Plan, Business Continuity Plan, and Disaster Recovery Plan 
 | EVD-002 | Supplier Register with no documented assurance status for 4 of 11 sampled suppliers | [../02-Asset-Management/025-supplier_register.xlsx](../02-Asset-Management/025-supplier_register.xlsx) | 2026-07-23 | 4.1 |
 | EVD-003 | Internal review of access privileges and segregation of duties | [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md) §3.3 | 2026-07-23 | 4.2 |
 | EVD-004 | CR-009 Insufficient security monitoring, scored 15 (High) | [../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md) CR-009 | 2026-07-23 | 4.3 |
-| EVD-005 | Incident Response Plan and Ransomware Tabletop Exercise record | [../08-Incident-Management/Incident_Response_Plan](../08-Incident-Management/Incident_Response_Plan.md), [../08-Incident-Management/Ransomware_Tabletop_Exercise](../08-Incident-Management/Ransomware_Tabletop_Exercise.md) | 2026-07-23 | 4.4 |
+| EVD-005 | Incident Response Plan and Ransomware Tabletop Exercise record | [../08-Incident-Management/081-incident_response_plan](../08-Incident-Management/081-incident_response_plan.md), [../08-Incident-Management/082-ransomware_tabletop_exercise](../08-Incident-Management/082-ransomware_tabletop_exercise.md) | 2026-07-23 | 4.4 |
 
 ## 6. Analysis
 

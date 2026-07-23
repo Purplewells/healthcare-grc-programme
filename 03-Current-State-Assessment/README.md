@@ -14,4 +14,4 @@ The Trust's baseline cyber security position, assessed against three independent
 
 **Status legend:** ✅ Complete · 🚧 Draft/Stub · ⬜ Not Started
 
-> Note: 022 and 023 reference incident/continuity plans in [08-Incident-Management](../08-Incident-Management/README.md) and [10-Business-Continuity](../10-Business-Continuity/README.md) as existing evidence — those folders are currently empty. See [NAVIGATION](../NAVIGATION.md#known-cross-reference-gap) for detail.
+> Note: 022 and 023 reference incident/continuity plans in [08-Incident-Management](../08-Incident-Management/README.md) and [10-Business-Continuity](../10-Business-Continuity/README.md) as existing evidence. 08-Incident-Management is now populated and consistent with those references; 10-Business-Continuity remains empty. See [NAVIGATION](../NAVIGATION.md#known-cross-reference-gap) for detail.
