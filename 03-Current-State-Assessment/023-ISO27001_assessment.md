@@ -2,7 +2,7 @@
 
 ## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
 
-**Organisation:** Westbridge Hospitals Trust (WUHNFT)
+**Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** ISO/IEC 27001:2022 Conformance Assessment
 **Owner:** Chief Information Security Officer (CISO)
 **Classification:** Portfolio Case Study – Fictional Organisation
@@ -12,7 +12,7 @@
 
 ### 1.1 Purpose
 
-This assessment measures WUHNFT's current conformance with ISO/IEC 27001:2022, at the Annex A control-theme level, as part of the Trust's aspiration to work towards a certifiable Information Security Management System (ISMS). It builds on [021-current_state_assessment](021-current_state_assessment.md) and complements the NCSC CAF assessment ([022-caf_assessment](022-caf_assessment.md)), which assesses the same underlying capability against a UK critical-national-infrastructure-oriented framework rather than a certifiable management-system standard.
+This assessment measures WHT's current conformance with ISO/IEC 27001:2022, at the Annex A control-theme level, as part of the Trust's aspiration to work towards a certifiable Information Security Management System (ISMS). It builds on [021-current_state_assessment](021-current_state_assessment.md) and complements the NCSC CAF assessment ([022-caf_assessment](022-caf_assessment.md)), which assesses the same underlying capability against a UK critical-national-infrastructure-oriented framework rather than a certifiable management-system standard.
 
 ### 1.2 Scope
 
@@ -35,7 +35,7 @@ ISO/IEC 27001:2022 Annex A, comprising 93 controls across four themes: Organizat
 
 ## 3. Current State
 
-WUHNFT's conformance is strongest in Physical controls, reflecting the Trust's existing estate and facilities management practices for its hospital sites and data centres, though this has not been subject to a dedicated review in this engagement and is assessed on the absence of contrary evidence rather than direct testing. Organizational and Technological controls are Partially Implemented, mirroring the governance fragmentation and technical control gaps identified in [021-current_state_assessment](021-current_state_assessment.md) and [022-caf_assessment](022-caf_assessment.md). People controls are Partially Implemented, with the clearest gap being security awareness training completion.
+WHT's conformance is strongest in Physical controls, reflecting the Trust's existing estate and facilities management practices for its hospital sites and data centres, though this has not been subject to a dedicated review in this engagement and is assessed on the absence of contrary evidence rather than direct testing. Organizational and Technological controls are Partially Implemented, mirroring the governance fragmentation and technical control gaps identified in [021-current_state_assessment](021-current_state_assessment.md) and [022-caf_assessment](022-caf_assessment.md). People controls are Partially Implemented, with the clearest gap being security awareness training completion.
 
 | Theme | Control Count | Assessed Conformance | Representative Gap |
 |---|---:|---|---|
@@ -106,4 +106,4 @@ As with the CAF assessment, the root cause is that security control implementati
 
 ## 9. Conclusion
 
-WUHNFT's ISO/IEC 27001:2022 conformance position is Partially Implemented across three of four Annex A themes, with Physical controls provisionally rated Largely Implemented pending direct verification. The strong overlap with the CAF assessment findings in [022-caf_assessment](022-caf_assessment.md) — particularly around supplier assurance, access control, and monitoring — indicates these are genuine cross-framework priorities rather than assessment artefacts, and should be treated as shared inputs to the single improvement roadmap in [../14-RoadMap/](../14-RoadMap/) rather than addressed as separate ISO and CAF workstreams. Establishing a formally scoped ISMS is the key structural recommendation that would allow future control improvements to compound rather than remain isolated.
+WHT's ISO/IEC 27001:2022 conformance position is Partially Implemented across three of four Annex A themes, with Physical controls provisionally rated Largely Implemented pending direct verification. The strong overlap with the CAF assessment findings in [022-caf_assessment](022-caf_assessment.md) — particularly around supplier assurance, access control, and monitoring — indicates these are genuine cross-framework priorities rather than assessment artefacts, and should be treated as shared inputs to the single improvement roadmap in [../14-RoadMap/](../14-RoadMap/) rather than addressed as separate ISO and CAF workstreams. Establishing a formally scoped ISMS is the key structural recommendation that would allow future control improvements to compound rather than remain isolated.

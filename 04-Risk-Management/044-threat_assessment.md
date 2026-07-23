@@ -2,7 +2,7 @@
 
 ## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
 
-**Organisation:** Westbridge Hospitals Trust (WUHNFT)
+**Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** Cyber Threat Assessment
 **Owner:** Chief Information Security Officer (CISO)
 **Classification:** Portfolio Case Study – Fictional Organisation
@@ -12,11 +12,11 @@
 
 ### 1.1 Purpose
 
-This assessment describes the external cyber threat landscape facing WUHNFT and provides the threat-actor and likelihood context that underpins the scoring of risks in [risk_register](risk_register.md) and the domain-specific assessments in this folder. It answers: *who is likely to target the Trust, how, and why?*
+This assessment describes the external cyber threat landscape facing WHT and provides the threat-actor and likelihood context that underpins the scoring of risks in [risk_register](risk_register.md) and the domain-specific assessments in this folder. It answers: *who is likely to target the Trust, how, and why?*
 
 ### 1.2 Scope
 
-This assessment covers threat actors and attack techniques relevant to UK healthcare providers generally and WUHNFT's specific digital estate (recorded in [../02-Asset-Management/022-master_assets_register.xlsx](../02-Asset-Management/022-master_assets_register.xlsx)). It does not cover physical security threats or clinical safety incidents unrelated to cyber activity.
+This assessment covers threat actors and attack techniques relevant to UK healthcare providers generally and WHT's specific digital estate (recorded in [../02-Asset-Management/022-master_assets_register.xlsx](../02-Asset-Management/022-master_assets_register.xlsx)). It does not cover physical security threats or clinical safety incidents unrelated to cyber activity.
 
 ## 2. Assessment Criteria
 
@@ -30,7 +30,7 @@ Threat actors are rated by Capability and Intent (Low / Medium / High), consiste
 
 ## 3. Current State
 
-UK healthcare providers have been a consistently reported target for ransomware and data-extortion groups, reflecting the sector's low tolerance for service disruption and the high value of health data. Publicly reported incidents affecting the NHS — including the WannaCry ransomware outbreak in 2017, which disrupted services across dozens of NHS organisations, and more recent ransomware attacks on pathology and diagnostic service providers — illustrate that both direct attacks on a Trust and attacks on its clinical supply chain carry equivalent operational impact. WUHNFT's own risk register reflects this: 4 of its 12 recorded risks (CR-001, CR-002, CR-005, CR-006) are directly attributable to the threat actor categories described below.
+UK healthcare providers have been a consistently reported target for ransomware and data-extortion groups, reflecting the sector's low tolerance for service disruption and the high value of health data. Publicly reported incidents affecting the NHS — including the WannaCry ransomware outbreak in 2017, which disrupted services across dozens of NHS organisations, and more recent ransomware attacks on pathology and diagnostic service providers — illustrate that both direct attacks on a Trust and attacks on its clinical supply chain carry equivalent operational impact. WHT's own risk register reflects this: 4 of its 12 recorded risks (CR-001, CR-002, CR-005, CR-006) are directly attributable to the threat actor categories described below.
 
 ## 4. Observations
 
@@ -48,7 +48,7 @@ Rather than attacking Trusts directly, actors increasingly compromise shared cli
 
 ### 4.4 Opportunistic Exploitation of Unsupported Systems
 
-Automated scanning and exploitation of known vulnerabilities in unsupported operating systems (including legacy medical devices) is a low-cost, high-frequency threat vector requiring no specific targeting of WUHNFT, consistent with CR-003 and [042-medical_device_risk](042-medical_device_risk.md). Capability: Low-Medium. Intent: N/A (opportunistic, not targeted).
+Automated scanning and exploitation of known vulnerabilities in unsupported operating systems (including legacy medical devices) is a low-cost, high-frequency threat vector requiring no specific targeting of WHT, consistent with CR-003 and [042-medical_device_risk](042-medical_device_risk.md). Capability: Low-Medium. Intent: N/A (opportunistic, not targeted).
 
 ### 4.5 Insider Risk is Present but Lower Capability Than External Actors
 
@@ -68,7 +68,7 @@ Excessive access privileges (CR-004) create a credible insider misuse pathway, t
 
 ### 6.1 Findings
 
-The threat landscape facing WUHNFT is dominated by financially motivated actors (ransomware, credential theft, supply chain) rather than nation-state or ideologically motivated actors, which is consistent with the general pattern reported across the UK healthcare sector. This matters for prioritisation: financially motivated actors are opportunistic and will pursue the path of least resistance, which means the Trust's own control gaps (unsupported devices, weak access management, immature supplier assurance) determine exposure more than any specific targeting decision by an attacker.
+The threat landscape facing WHT is dominated by financially motivated actors (ransomware, credential theft, supply chain) rather than nation-state or ideologically motivated actors, which is consistent with the general pattern reported across the UK healthcare sector. This matters for prioritisation: financially motivated actors are opportunistic and will pursue the path of least resistance, which means the Trust's own control gaps (unsupported devices, weak access management, immature supplier assurance) determine exposure more than any specific targeting decision by an attacker.
 
 ### 6.2 Root Cause
 
@@ -94,4 +94,4 @@ There is no single root cause for external threat activity — it is an environm
 
 ## 9. Conclusion
 
-WUHNFT faces a threat landscape typical of UK healthcare providers, dominated by financially motivated ransomware, credential-theft, and supply-chain actors rather than sophisticated targeted campaigns. Because these threats are opportunistic, the Trust's own control maturity — not attacker sophistication — is the primary determinant of realised risk, reinforcing the priority already established across [../03-Current-State-Assessment/](../03-Current-State-Assessment/) and this folder's domain risk assessments: close the known gaps in detection, access management, supplier assurance, and legacy device exposure before the threat landscape exploits them.
+WHT faces a threat landscape typical of UK healthcare providers, dominated by financially motivated ransomware, credential-theft, and supply-chain actors rather than sophisticated targeted campaigns. Because these threats are opportunistic, the Trust's own control maturity — not attacker sophistication — is the primary determinant of realised risk, reinforcing the priority already established across [../03-Current-State-Assessment/](../03-Current-State-Assessment/) and this folder's domain risk assessments: close the known gaps in detection, access management, supplier assurance, and legacy device exposure before the threat landscape exploits them.

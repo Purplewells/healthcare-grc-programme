@@ -2,7 +2,7 @@
 
 ## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
 
-**Organisation:** Westbridge Hospitals Trust (WUHNFT)
+**Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** Domain Risk Assessment — Cloud
 **Owner:** Cloud Service Owner
 **Classification:** Portfolio Case Study – Fictional Organisation
@@ -12,7 +12,7 @@
 
 ### 1.1 Purpose
 
-This assessment provides a focused, domain-specific view of cyber risk arising from WUHNFT's use of cloud services, expanding on the single register-level entry CR-012 in [risk_register](risk_register.md). It answers: *what could go wrong in the Trust's cloud estate specifically, and how well controlled is it today?*
+This assessment provides a focused, domain-specific view of cyber risk arising from WHT's use of cloud services, expanding on the single register-level entry CR-012 in [risk_register](risk_register.md). It answers: *what could go wrong in the Trust's cloud estate specifically, and how well controlled is it today?*
 
 ### 1.2 Scope
 
@@ -30,7 +30,7 @@ Likelihood and Impact are each scored 1-5 per [risk_register](risk_register.md) 
 
 ## 3. Current State
 
-WUHNFT's cloud footprint has grown quickly as part of its digital transformation programme (see [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md) §2.2) and now hosts several Restricted-classified, patient-facing services. Cloud security misconfiguration is already recorded as a High risk (CR-012, scored 15) in the master register, reflecting incomplete governance rather than a specific known incident. Identity is the control plane for the entire cloud estate — Microsoft Entra ID (AST-029) — and its compromise or misconfiguration would have Trust-wide consequences, consistent with the CAF finding that Identity and Access Control (B2) is Not Achieved ([../03-Current-State-Assessment/022-caf_assessment](../03-Current-State-Assessment/022-caf_assessment.md) §4.2).
+WHT's cloud footprint has grown quickly as part of its digital transformation programme (see [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md) §2.2) and now hosts several Restricted-classified, patient-facing services. Cloud security misconfiguration is already recorded as a High risk (CR-012, scored 15) in the master register, reflecting incomplete governance rather than a specific known incident. Identity is the control plane for the entire cloud estate — Microsoft Entra ID (AST-029) — and its compromise or misconfiguration would have Trust-wide consequences, consistent with the CAF finding that Identity and Access Control (B2) is Not Achieved ([../03-Current-State-Assessment/022-caf_assessment](../03-Current-State-Assessment/022-caf_assessment.md) §4.2).
 
 ## 4. Observations
 
@@ -63,7 +63,7 @@ Backup Infrastructure (AST-018) covers Trust workloads generally, but no cloud-s
 
 ### 6.1 Findings
 
-Cloud risk at WUHNFT is not a matter of an absent control set — Azure and Microsoft 365 provide mature native security capability — but of governance not yet being configured to use it consistently. The identity single-point-of-failure observation (4.2) is the most consequential finding, since it means the Trust's weakest CAF/ISO area (access control) sits directly at the centre of its most exposed, patient-facing cloud services.
+Cloud risk at WHT is not a matter of an absent control set — Azure and Microsoft 365 provide mature native security capability — but of governance not yet being configured to use it consistently. The identity single-point-of-failure observation (4.2) is the most consequential finding, since it means the Trust's weakest CAF/ISO area (access control) sits directly at the centre of its most exposed, patient-facing cloud services.
 
 ### 6.2 Root Cause
 
@@ -89,4 +89,4 @@ Cloud services were adopted service-by-service to meet specific clinical or pati
 
 ## 9. Conclusion
 
-Cloud risk at WUHNFT is concentrated around identity governance and configuration oversight rather than a gap in the underlying platform's security capability. Because Entra ID sits at the centre of both the Trust's most exposed patient-facing services and its weakest CAF principle (B2), closing REC-002 should be treated as the single highest-leverage action in this assessment, with the remaining recommendations tracked through [../12-Azure-Governance/](../12-Azure-Governance/) and the wider improvement roadmap in [../14-RoadMap/](../14-RoadMap/).
+Cloud risk at WHT is concentrated around identity governance and configuration oversight rather than a gap in the underlying platform's security capability. Because Entra ID sits at the centre of both the Trust's most exposed patient-facing services and its weakest CAF principle (B2), closing REC-002 should be treated as the single highest-leverage action in this assessment, with the remaining recommendations tracked through [../12-Azure-Governance/](../12-Azure-Governance/) and the wider improvement roadmap in [../14-RoadMap/](../14-RoadMap/).

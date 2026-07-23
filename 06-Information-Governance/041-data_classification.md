@@ -1,6 +1,6 @@
 # Data Classification Framework
 
-**Organisation:** Westbridge Hospitals Trust (WUHNFT)  
+**Organisation:** Westbridge Hospitals Trust (WHT)  
 **Document Type:** Data Classification Framework  
 **Owner:** Data Protection Officer (DPO) / Information Governance Team  
 **Classification:** Portfolio Case Study – Fictional Organisation  

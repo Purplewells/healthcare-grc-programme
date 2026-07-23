@@ -1,5 +1,5 @@
 # Organisation Profile  
-## Westbridge Hospitals Trust (WUHNFT)
+## Westbridge Hospitals Trust (WHT)
 
 **Project:** Project SentinelCare - Cyber Security Governance, Risk and Compliance Improvement Programme  
 **Document Type:** Organisation Profile  
@@ -8,9 +8,9 @@
 
 # 1. Introduction
 
-Westbridge Hospitals Trust (WUHNFT) is a fictional NHS healthcare organisation created for portfolio purposes. The Trust represents a large, digitally enabled healthcare provider operating within the NHS environment and serving communities across the West Midlands region.
+Westbridge Hospitals Trust (WHT) is a fictional NHS healthcare organisation created for portfolio purposes. The Trust represents a large, digitally enabled healthcare provider operating within the NHS environment and serving communities across the West Midlands region.
 
-The Trust delivers a wide range of acute, specialist, diagnostic, and community healthcare services. As a modern healthcare provider, WUHNFT relies heavily on digital technology to support clinical decision-making, improve patient outcomes, enable efficient service delivery, and maintain continuity of care.
+The Trust delivers a wide range of acute, specialist, diagnostic, and community healthcare services. As a modern healthcare provider, WHT relies heavily on digital technology to support clinical decision-making, improve patient outcomes, enable efficient service delivery, and maintain continuity of care.
 
 The increasing dependence on digital systems has created a complex cyber security landscape. Clinical systems, medical devices, cloud services, third-party suppliers, and patient-facing platforms must operate securely while remaining available to healthcare professionals when needed.
 
@@ -43,13 +43,13 @@ The Trust provides healthcare services to approximately:
 
 Due to the scale and complexity of its operations, maintaining secure and resilient digital services is critical to patient safety and operational continuity.
 
-As an NHS Foundation Trust, WUHNFT is regulated by the Care Quality Commission (CQC) and works within the wider NHS oversight structure alongside its local Integrated Care Board (ICB). Foundation Trust status also brings a Council of Governors, representing patients, staff, and the public in the Trust's governance (see [006-stakeholders](006-stakeholders.md) for full stakeholder detail).
+As an NHS Foundation Trust, WHT is regulated by the Care Quality Commission (CQC) and works within the wider NHS oversight structure alongside its local Integrated Care Board (ICB). Foundation Trust status also brings a Council of Governors, representing patients, staff, and the public in the Trust's governance (see [006-stakeholders](006-stakeholders.md) for full stakeholder detail).
 
 # 3. Mission and Strategic Purpose
 
 The Trust's mission is to provide safe, effective, and compassionate healthcare supported by secure and reliable digital services.
 
-WUHNFT aims to:
+WHT aims to:
 
 - Deliver high-quality patient care.
 - Improve healthcare outcomes through digital innovation.
@@ -92,7 +92,7 @@ These services depend on continuous availability of clinical systems, communicat
 
 ## Specialist Services
 
-WUHNFT provides specialist healthcare services including:
+WHT provides specialist healthcare services including:
 
 - Cancer treatment services
 - Specialist outpatient clinics
@@ -128,7 +128,7 @@ Security and availability of pharmacy systems are critical to maintaining patien
 
 # 6. Digital Transformation Journey
 
-Over the past five years, WUHNFT has undergone significant digital transformation to improve healthcare delivery and patient experience.
+Over the past five years, WHT has undergone significant digital transformation to improve healthcare delivery and patient experience.
 
 Key digital initiatives include:
 
@@ -188,7 +188,7 @@ The Trust operates a hybrid technology environment consisting of cloud services,
 
 # 8. Information Assets
 
-As a healthcare provider, WUHNFT manages a wide range of sensitive information assets.
+As a healthcare provider, WHT manages a wide range of sensitive information assets.
 
 ## Patient Information
 

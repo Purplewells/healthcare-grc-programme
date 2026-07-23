@@ -2,7 +2,7 @@
 
 ## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
 
-**Organisation:** Westbridge Hospitals Trust (WUHNFT)
+**Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** Risk Methodology (Authoritative)
 **Owner:** Chief Information Security Officer (CISO)
 **Classification:** Portfolio Case Study – Fictional Organisation
@@ -12,11 +12,11 @@
 
 ### 1.1 Purpose
 
-This document is the authoritative definition of how WUHNFT identifies, assesses, scores, treats, and reviews cyber risk. [risk_register](risk_register.md) §2-§3 summarises this methodology for readability within the register itself; where the two differ, this document governs. Every domain-specific risk assessment in this folder ([041-cloud_risk](041-cloud_risk.md), [042-medical_device_risk](042-medical_device_risk.md), [043-third_party_risks](043-third_party_risks.md), [044-threat_assessment](044-threat_assessment.md)) and the heat map and treatment plans ([045-risk_heat_map](045-risk_heat_map.md), [046-risk_treatment_plans](046-risk_treatment_plans.md)) apply this same methodology.
+This document is the authoritative definition of how WHT identifies, assesses, scores, treats, and reviews cyber risk. [risk_register](risk_register.md) §2-§3 summarises this methodology for readability within the register itself; where the two differ, this document governs. Every domain-specific risk assessment in this folder ([041-cloud_risk](041-cloud_risk.md), [042-medical_device_risk](042-medical_device_risk.md), [043-third_party_risks](043-third_party_risks.md), [044-threat_assessment](044-threat_assessment.md)) and the heat map and treatment plans ([045-risk_heat_map](045-risk_heat_map.md), [046-risk_treatment_plans](046-risk_treatment_plans.md)) apply this same methodology.
 
 ### 1.2 Scope
 
-This methodology applies to all cyber security risk identification, assessment, and treatment activity across WUHNFT, covering clinical, corporate, infrastructure, medical device, and third-party risk. It does not cover general enterprise risk (financial, clinical safety, workforce) managed through the Trust's separate corporate risk process, except where a cyber risk has a direct clinical safety consequence requiring escalation to that process.
+This methodology applies to all cyber security risk identification, assessment, and treatment activity across WHT, covering clinical, corporate, infrastructure, medical device, and third-party risk. It does not cover general enterprise risk (financial, clinical safety, workforce) managed through the Trust's separate corporate risk process, except where a cyber risk has a direct clinical safety consequence requiring escalation to that process.
 
 ## 2. Assessment Criteria
 
@@ -113,4 +113,4 @@ The root cause is the same one identified Trust-wide in [../03-Current-State-Ass
 
 ## 9. Conclusion
 
-WUHNFT's risk methodology is fit for purpose and now consistently documented as the authoritative reference for every risk document in this programme. The priority is not to redesign the methodology but to operationalise it: moving from periodic, programme-driven risk assessment to a continuous process with a standing governance forum, and reconciling the newer domain-specific risk views into the single central register this document is intended to govern.
+WHT's risk methodology is fit for purpose and now consistently documented as the authoritative reference for every risk document in this programme. The priority is not to redesign the methodology but to operationalise it: moving from periodic, programme-driven risk assessment to a continuous process with a standing governance forum, and reconciling the newer domain-specific risk views into the single central register this document is intended to govern.

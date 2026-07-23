@@ -107,7 +107,7 @@ The assumptions provide a realistic foundation for the assessment while recognis
 | A-043 | Compliance gaps represent improvement opportunities rather than confirmed regulatory failures. |
 | A-044 | Evidence availability may vary depending on the maturity of existing processes. |
 | A-045 | Framework mappings are performed at a high level for portfolio demonstration purposes. |
-| A-046 | As an acute NHS Trust, WUHNFT is assumed to be designated an Operator of Essential Services (OES) under the NIS Regulations 2018, for which the NCSC CAF is the relevant assessment methodology. |
+| A-046 | As an acute NHS Trust, WHT is assumed to be designated an Operator of Essential Services (OES) under the NIS Regulations 2018, for which the NCSC CAF is the relevant assessment methodology. |
 
 
 

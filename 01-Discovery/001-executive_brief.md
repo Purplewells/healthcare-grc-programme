@@ -8,7 +8,7 @@
 
 ## Organisation Name
 
-**Westbridge Hospitals Trust (WUHNFT)**
+**Westbridge Hospitals Trust (WHT)**
 *(Fictional organisation created for portfolio purposes)*
 
 ## Organisation Profile

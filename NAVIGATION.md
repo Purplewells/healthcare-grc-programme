@@ -49,7 +49,7 @@ New to the programme? Read in this order:
 | Document | Status | Description |
 |---|---|---|
 | [001-executive_brief](01-Discovery/001-executive_brief.md) | ✅ | Executive brief for the programme |
-| [002-organisation_profile](01-Discovery/002-organisation_profile.md) | ✅ | WUHNFT organisation profile |
+| [002-organisation_profile](01-Discovery/002-organisation_profile.md) | ✅ | WHT organisation profile |
 | [003-business-context](01-Discovery/003-business-context.md) | ✅ | Strategic drivers, risk appetite, business challenges |
 | [004-project_objectives](01-Discovery/004-project_objectives.md) | ✅ | Programme objectives and CAF outcome mapping |
 | [005-project_scope](01-Discovery/005-project_scope.md) | ✅ | In-scope / out-of-scope statement |

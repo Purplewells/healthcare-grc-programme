@@ -2,7 +2,7 @@
 
 ## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
 
-**Organisation:** Westbridge Hospitals Trust (WUHNFT)
+**Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** Domain Risk Assessment — Third-Party / Supplier
 **Owner:** Procurement Director
 **Classification:** Portfolio Case Study – Fictional Organisation
@@ -12,7 +12,7 @@
 
 ### 1.1 Purpose
 
-This assessment provides a focused, supplier-level view of cyber risk arising from WUHNFT's third-party relationships, expanding on the single register-level entry CR-006 in [risk_register](risk_register.md). It answers: *which supplier relationships carry the highest cyber risk, and what assurance exists over them today?*
+This assessment provides a focused, supplier-level view of cyber risk arising from WHT's third-party relationships, expanding on the single register-level entry CR-006 in [risk_register](risk_register.md). It answers: *which supplier relationships carry the highest cyber risk, and what assurance exists over them today?*
 
 ### 1.2 Scope
 
@@ -30,7 +30,7 @@ Likelihood and Impact are each scored 1-5 per [risk_register](risk_register.md) 
 
 ## 3. Current State
 
-WUHNFT depends on more than 150 external suppliers Trust-wide ([../01-Discovery/003-business-context](../01-Discovery/003-business-context.md) §3.5), of which the 11 sampled in the supplier register represent the highest-criticality relationships: national NHS connectivity, the EPR and imaging platform vendors, medical device manufacturers, the MSSP, and Microsoft. Most sampled suppliers hold recognised security certifications (ISO 27001, DSPT "Standards Met", SOC 2 Type II), but there is no Trust-wide process that consistently requires, verifies, or re-checks this assurance on a defined cycle — assurance status is currently a by-product of individual relationship management rather than a governed control.
+WHT depends on more than 150 external suppliers Trust-wide ([../01-Discovery/003-business-context](../01-Discovery/003-business-context.md) §3.5), of which the 11 sampled in the supplier register represent the highest-criticality relationships: national NHS connectivity, the EPR and imaging platform vendors, medical device manufacturers, the MSSP, and Microsoft. Most sampled suppliers hold recognised security certifications (ISO 27001, DSPT "Standards Met", SOC 2 Type II), but there is no Trust-wide process that consistently requires, verifies, or re-checks this assurance on a defined cycle — assurance status is currently a by-product of individual relationship management rather than a governed control.
 
 ## 4. Observations
 
@@ -90,4 +90,4 @@ The root cause mirrors the Trust-wide finding in [../03-Current-State-Assessment
 
 ## 9. Conclusion
 
-Third-party risk at WUHNFT is driven less by any single supplier's weakness than by the absence of a Trust-wide process to consistently assess and monitor supplier assurance over time — the same structural gap independently confirmed by CAF, ISO 27001, and DSPT. The most urgent, concrete action is resolving the compounded SUP-005/Theatre Management System position (REC-002), while REC-001 addresses the systemic gap that allowed this position to go unmanaged in the first place.
+Third-party risk at WHT is driven less by any single supplier's weakness than by the absence of a Trust-wide process to consistently assess and monitor supplier assurance over time — the same structural gap independently confirmed by CAF, ISO 27001, and DSPT. The most urgent, concrete action is resolving the compounded SUP-005/Theatre Management System position (REC-002), while REC-001 addresses the systemic gap that allowed this position to go unmanaged in the first place.

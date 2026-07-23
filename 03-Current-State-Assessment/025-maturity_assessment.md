@@ -2,7 +2,7 @@
 
 ## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
 
-**Organisation:** Westbridge Hospitals Trust (WUHNFT)
+**Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** Cyber Security Maturity Roll-Up
 **Owner:** Chief Information Security Officer (CISO)
 **Classification:** Portfolio Case Study – Fictional Organisation
@@ -75,7 +75,7 @@ Asset Management improved from an undocumented state to a structured, owned regi
 
 ### 6.1 Findings
 
-The consolidated maturity position confirms the programme's initial hypothesis in [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md): WUHNFT's cyber security capability has not scaled with its digital transformation. However, the picture is not uniformly weak — it is unevenly distributed, with Asset Management as a proof point that targeted investment produces measurable maturity gains within a single programme cycle. This reframes the programme's task from "fix everything" to "replicate the Asset Management approach for the three Initial-rated domains."
+The consolidated maturity position confirms the programme's initial hypothesis in [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md): WHT's cyber security capability has not scaled with its digital transformation. However, the picture is not uniformly weak — it is unevenly distributed, with Asset Management as a proof point that targeted investment produces measurable maturity gains within a single programme cycle. This reframes the programme's task from "fix everything" to "replicate the Asset Management approach for the three Initial-rated domains."
 
 ### 6.2 Root Cause
 
@@ -101,4 +101,4 @@ The root cause is consistent across all three underlying framework assessments: 
 
 ## 9. Conclusion
 
-WUHNFT's overall cyber security maturity is assessed at **Developing**, with Asset Management the sole domain approaching Established and three domains — Third-Party/Supplier Assurance, Identity and Access Management, and Security Monitoring — still at Initial. The consistency of this picture across three independently structured frameworks (CAF, ISO 27001, DSPT) gives the Trust Board a defensible, well-evidenced basis for prioritisation. The recommended target is to bring every domain to at least "Managed" within 18 months, using the demonstrated success of the Asset Management workstream as the template, with progress tracked through the improvement roadmap in [../14-RoadMap/](../14-RoadMap/).
+WHT's overall cyber security maturity is assessed at **Developing**, with Asset Management the sole domain approaching Established and three domains — Third-Party/Supplier Assurance, Identity and Access Management, and Security Monitoring — still at Initial. The consistency of this picture across three independently structured frameworks (CAF, ISO 27001, DSPT) gives the Trust Board a defensible, well-evidenced basis for prioritisation. The recommended target is to bring every domain to at least "Managed" within 18 months, using the demonstrated success of the Asset Management workstream as the template, with progress tracked through the improvement roadmap in [../14-RoadMap/](../14-RoadMap/).

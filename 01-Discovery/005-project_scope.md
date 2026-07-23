@@ -13,7 +13,7 @@ This document defines the boundaries of the Project SentinelCare Discovery phase
 
 ## 2.1 Organisational Scope
 
-- Westbridge Hospitals Trust (WUHNFT) corporate, clinical, and digital functions as described in [002-organisation_profile](002-organisation_profile.md).
+- Westbridge Hospitals Trust (WHT) corporate, clinical, and digital functions as described in [002-organisation_profile](002-organisation_profile.md).
 - All Trust sites: two acute hospitals, three community healthcare centres, and associated diagnostic, pharmacy, and research facilities.
 - Staff groups covered by the assessment's governance and awareness elements: clinical staff, administrative employees, contractors, students and researchers.
 
@@ -43,9 +43,9 @@ Governance, risk management, asset management, identity and access management, d
 
 - **Live technical testing.** No penetration testing, vulnerability scanning, or red-team activity is performed as part of this Discovery phase (see constraint C-007/C-008 in [007-assumptions_and_constraints](007-assumptions_and_constraints.md)).
 - **Remediation delivery.** Implementation of controls, policy rollout, and technical fixes are addressed in a subsequent delivery phase, not Discovery.
-- **Third-party-hosted systems where the Trust is not the data controller.** Systems wholly owned and operated by external partners, where WUHNFT has no security or configuration responsibility, are excluded, though supplier assurance of these relationships (O-05 in [004-project_objectives](004-project_objectives.md)) is in scope.
+- **Third-party-hosted systems where the Trust is not the data controller.** Systems wholly owned and operated by external partners, where WHT has no security or configuration responsibility, are excluded, though supplier assurance of these relationships (O-05 in [004-project_objectives](004-project_objectives.md)) is in scope.
 - **Formal DSPT submission or ISO 27001 certification.** The assessment informs readiness for both but does not constitute either.
-- **Clinical research systems operating under separate sponsor governance**, where WUHNFT acts as a host rather than data controller.
+- **Clinical research systems operating under separate sponsor governance**, where WHT acts as a host rather than data controller.
 
 # 4. Time Boundary
 

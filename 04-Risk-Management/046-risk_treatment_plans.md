@@ -2,7 +2,7 @@
 
 ## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
 
-**Organisation:** Westbridge Hospitals Trust (WUHNFT)
+**Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** Risk Treatment Plans
 **Owner:** Chief Information Security Officer (CISO)
 **Classification:** Portfolio Case Study – Fictional Organisation
@@ -106,4 +106,4 @@ The root cause is sequencing: treatment cannot meaningfully accelerate across 9 
 
 ## 9. Conclusion
 
-WUHNFT has a treatment plan defined for every risk in its register, but delivery is still early: only a quarter of risks show active progress, and none are yet embedded. The single highest-leverage action is establishing the Cyber Security Governance Group, since treatment progress across a distributed set of owners depends on a central forum holding them to these target dates — without it, this document risks remaining an accurate plan that is never fully executed.
+WHT has a treatment plan defined for every risk in its register, but delivery is still early: only a quarter of risks show active progress, and none are yet embedded. The single highest-leverage action is establishing the Cyber Security Governance Group, since treatment progress across a distributed set of owners depends on a central forum holding them to these target dates — without it, this document risks remaining an accurate plan that is never fully executed.

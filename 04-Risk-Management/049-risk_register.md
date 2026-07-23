@@ -1,7 +1,7 @@
 # Cyber Risk Register
 ## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
 
-**Organisation:** Westbridge Hospitals Trust (WUHNFT)  
+**Organisation:** Westbridge Hospitals Trust (WHT)  
 **Document Type:** Cyber Risk Register  
 **Owner:** Chief Information Security Officer (CISO)  
 **Classification:** Portfolio Case Study – Fictional Organisation  
@@ -217,7 +217,7 @@ Risk reviews will consider:
 
 # 8. Expected Outcome
 
-A mature cyber risk management process will enable WUHNFT to:
+A mature cyber risk management process will enable WHT to:
 
 - Understand its cyber exposure.
 - Prioritise security investments.

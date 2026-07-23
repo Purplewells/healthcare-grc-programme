@@ -6,7 +6,7 @@
 
 # 1. Introduction
 
-Westbridge Hospitals Trust (WUHNFT) has undergone significant digital transformation to improve healthcare delivery, enhance patient experience, and support clinical decision-making.
+Westbridge Hospitals Trust (WHT) has undergone significant digital transformation to improve healthcare delivery, enhance patient experience, and support clinical decision-making.
 
 Digital technologies now underpin almost every aspect of Trust operations, from electronic patient records and diagnostic services to patient communication platforms and research systems.
 
@@ -62,7 +62,7 @@ This expanded technology landscape requires stronger governance, clearer ownersh
 
 ## 2.3 Regulatory and Compliance Requirements
 
-As an NHS healthcare provider, WUHNFT must demonstrate compliance with multiple regulatory and industry requirements.
+As an NHS healthcare provider, WHT must demonstrate compliance with multiple regulatory and industry requirements.
 
 Key obligations include:
 
@@ -177,7 +177,7 @@ These devices present challenges because:
 
 ## 3.5 Third-Party Supplier Risk
 
-WUHNFT depends on more than 150 external suppliers supporting healthcare delivery.
+WHT depends on more than 150 external suppliers supporting healthcare delivery.
 
 Examples include:
 
@@ -324,4 +324,4 @@ The programme recognises that effective cyber security requires a combination of
 - Security awareness.
 - Continuous improvement.
 
-By strengthening its cyber security capability, WUHNFT aims to provide safer, more resilient digital healthcare services for patients, staff, and healthcare partners.
+By strengthening its cyber security capability, WHT aims to provide safer, more resilient digital healthcare services for patients, staff, and healthcare partners.
