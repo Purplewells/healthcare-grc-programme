@@ -14,7 +14,7 @@ This review assesses WHT's readiness against the NHS Data Security and Protectio
 
 ### 1.2 Scope
 
-This review covers all 10 National Data Guardian Data Security Standards as expressed in the current DSPT assertion set, applied Trust-wide. It does not constitute a formal DSPT submission — it is a readiness review intended to inform submission preparation and identify evidence gaps ahead of the annual deadline. The detailed control-by-control mapping is maintained in [../07-Compliance/NHS_DSP_Toolkit_Mapping.xlsx](../07-Compliance/NHS_DSP_Toolkit_Mapping.xlsx).
+This review covers all 10 National Data Guardian Data Security Standards as expressed in the current DSPT assertion set, applied Trust-wide. It does not constitute a formal DSPT submission — it is a readiness review intended to inform submission preparation and identify evidence gaps ahead of the annual deadline. The detailed control-by-control mapping is maintained in [../07-Compliance/074-nhs_dsp_toolkit_mapping.xlsx](../07-Compliance/074-nhs_dsp_toolkit_mapping.xlsx).
 
 ## 2. Assessment Criteria
 
@@ -88,7 +88,7 @@ Personal Confidential Data handling (Standard 1) is undermined by inconsistent d
 | EVD-003 | CR-004 Excessive user access privileges, scored 16 (High) | [../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md) CR-004 | 2026-07-23 | 4.3 |
 | EVD-004 | CR-008 Security awareness failure, scored 16 (High) | [../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md) CR-008 | 2026-07-23 | 4.4 |
 | EVD-005 | Incident Response Plan, Business Continuity Plan, Disaster Recovery Plan | [../08-Incident-Management/](../08-Incident-Management/), [../10-Business-Continuity/](../10-Business-Continuity/) | 2026-07-23 | 4.5 |
-| EVD-006 | Detailed DSPT evidence mapping (working papers) | [../07-Compliance/NHS_DSP_Toolkit_Mapping.xlsx](../07-Compliance/NHS_DSP_Toolkit_Mapping.xlsx) | 2026-07-23 | 4.1-4.5 |
+| EVD-006 | Detailed DSPT evidence mapping (working papers) | [../07-Compliance/074-nhs_dsp_toolkit_mapping.xlsx](../07-Compliance/074-nhs_dsp_toolkit_mapping.xlsx) | 2026-07-23 | 4.1-4.5 |
 
 ## 6. Analysis
 

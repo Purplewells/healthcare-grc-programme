@@ -14,7 +14,7 @@ This assessment measures WHT's current conformance with ISO/IEC 27001:2022, at t
 
 ### 1.2 Scope
 
-This assessment covers the four Annex A control themes of ISO/IEC 27001:2022 — Organizational, People, Physical, and Technological controls — applied Trust-wide across the clinical, corporate, infrastructure, medical device, and third-party estate recorded in [../02-Asset-Management/022-master_assets_register.xlsx](../02-Asset-Management/022-master_assets_register.xlsx). It assesses conformance at the level of control themes and representative controls, not a full 93-control audit; the detailed control-by-control mapping and evidence is maintained separately in [../07-Compliance/ISO27001_Control_Mapping.xlsx](../07-Compliance/ISO27001_Control_Mapping.xlsx). This assessment also excludes the management-system clauses (Clauses 4-10, e.g. management review, internal audit programme, ISMS scope statement), which are not yet formally established and are out of scope until the Trust commits to a certification timeline.
+This assessment covers the four Annex A control themes of ISO/IEC 27001:2022 — Organizational, People, Physical, and Technological controls — applied Trust-wide across the clinical, corporate, infrastructure, medical device, and third-party estate recorded in [../02-Asset-Management/022-master_assets_register.xlsx](../02-Asset-Management/022-master_assets_register.xlsx). It assesses conformance at the level of control themes and representative controls, not a full 93-control audit; the detailed control-by-control mapping and evidence is maintained separately in [../07-Compliance/072-iso27001_control_mapping.xlsx](../07-Compliance/072-iso27001_control_mapping.xlsx). This assessment also excludes the management-system clauses (Clauses 4-10, e.g. management review, internal audit programme, ISMS scope statement), which are not yet formally established and are out of scope until the Trust commits to a certification timeline.
 
 ## 2. Assessment Criteria
 
@@ -68,7 +68,7 @@ Access control (A.8.2-A.8.5), backup (A.8.13), security monitoring and logging (
 | EVD-002 | CR-008 Security awareness failure, scored 16 (High) | [../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md) CR-008 | 2026-07-23 | 4.2 |
 | EVD-003 | Medical Device Register — 2 of 11 sampled devices flagged unsupported | [../02-Asset-Management/024-medical_device_register.xlsx](../02-Asset-Management/024-medical_device_register.xlsx) | 2026-07-23 | 4.4 |
 | EVD-004 | CR-004, CR-009, CR-011 — access, monitoring, and backup risks all High or Critical | [../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md) | 2026-07-23 | 4.4 |
-| EVD-005 | Detailed control-by-control mapping (working papers) | [../07-Compliance/ISO27001_Control_Mapping.xlsx](../07-Compliance/ISO27001_Control_Mapping.xlsx) | 2026-07-23 | 4.1-4.4 |
+| EVD-005 | Detailed control-by-control mapping (working papers) | [../07-Compliance/072-iso27001_control_mapping.xlsx](../07-Compliance/072-iso27001_control_mapping.xlsx) | 2026-07-23 | 4.1-4.4 |
 
 ## 6. Analysis
 
