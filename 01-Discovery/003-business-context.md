@@ -80,9 +80,21 @@ Failure to meet these obligations could result in:
 - Loss of public confidence.
 - Impact on healthcare delivery.
 
+A concrete, healthcare-specific consequence is that a "Standards Not Met" outcome in the annual NHS DSP Toolkit submission can restrict a Trust's access to shared national systems (such as the NHS Spine and shared care record services), directly affecting the ability to exchange patient information with other care providers. This illustrates why cyber security governance is a direct enabler of clinical service delivery, not solely a compliance exercise.
+
 ---
 
-## 2.4 Protection of Patient Safety
+## 2.4 Risk Appetite Statement
+
+The Trust Board's cyber risk appetite is summarised as follows:
+
+- **Low appetite** for risks that could affect patient safety, clinical service availability, or the confidentiality of patient information. Such risks are treated as priorities for mitigation rather than acceptance.
+- **Moderate appetite** for risks affecting non-critical corporate functions (e.g., internal administrative systems), where a degree of residual risk may be accepted subject to documented sign-off by the relevant risk owner.
+- **Low appetite** for non-compliance with statutory and regulatory obligations (UK GDPR, DSPT, NIS Regulations), reflecting the Trust's public accountability.
+
+This statement provides the reference point against which risks recorded in the cyber risk register are scored and escalated. It is intended to be reviewed and formally approved by the Trust Board as part of programme governance, rather than treated as fixed.
+
+## 2.5 Protection of Patient Safety
 
 Healthcare services depend on reliable access to accurate information.
 
@@ -247,18 +259,7 @@ Potential consequences include:
 
 # 5. Project SentinelCare Objectives
 
-The programme aims to strengthen cyber security governance and improve organisational resilience.
-
-The key objectives are:
-
-| Objective | Desired Outcome |
-|---|---|
-| Improve governance | Establish consistent security policies and accountability |
-| Reduce cyber risk | Identify and manage cyber risks through a formal risk framework |
-| Improve compliance | Demonstrate readiness against regulatory requirements |
-| Strengthen resilience | Improve incident response and recovery capability |
-| Improve visibility | Provide executive-level cyber security reporting |
-| Increase awareness | Improve workforce security behaviours |
+The programme aims to strengthen cyber security governance and improve organisational resilience, addressing the business challenges set out in Section 3. The full set of objectives, baselines, and CAF outcome mapping is defined in [004-project_objectives.md](004-project_objectives.md).
 
 
 # 6. Expected Business Outcomes

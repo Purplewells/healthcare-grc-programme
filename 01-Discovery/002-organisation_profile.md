@@ -43,6 +43,8 @@ The Trust provides healthcare services to approximately:
 
 Due to the scale and complexity of its operations, maintaining secure and resilient digital services is critical to patient safety and operational continuity.
 
+As an NHS Foundation Trust, WUHNFT is regulated by the Care Quality Commission (CQC) and works within the wider NHS oversight structure alongside its local Integrated Care Board (ICB). Foundation Trust status also brings a Council of Governors, representing patients, staff, and the public in the Trust's governance (see [006-stakeholders.md](006-stakeholders.md) for full stakeholder detail).
+
 # 3. Mission and Strategic Purpose
 
 The Trust's mission is to provide safe, effective, and compassionate healthcare supported by secure and reliable digital services.
@@ -68,7 +70,7 @@ The Trust employs approximately **8,500 staff members** across clinical, operati
 | Administrative Employees | 1,000 |
 | Contractors | 300 |
 | Students and Researchers | 400 |
-| Other Healthcare and Support Staff | Remaining workforce |
+| Other Healthcare and Support Staff | 6,600 |
 
 The diverse workforce introduces different levels of cyber security exposure. Clinical professionals require rapid access to patient information, while administrative, research, and support teams interact with sensitive systems and data.
 
@@ -222,41 +224,7 @@ The confidentiality, integrity, and availability of these assets are essential t
 
 # 9. Stakeholder Landscape
 
-Cyber security governance requires collaboration across the Trust.
-
-## Executive Leadership
-
-- Chief Executive Officer
-- Trust Board
-- Audit and Risk Committee
-
-## Digital Leadership
-
-- Chief Digital Information Officer (CDIO)
-- Chief Information Security Officer (CISO)
-- Digital Services Leadership Team
-
-## Clinical Leadership
-
-- Chief Medical Officer
-- Clinical Directors
-- Clinical Safety Officers
-- Information Asset Owners
-
-## Governance Functions
-
-- Data Protection Officer
-- Information Governance Team
-- Internal Audit
-- Risk Management Team
-
-## External Stakeholders
-
-- NHS England
-- Healthcare partners
-- Technology suppliers
-- Medical device vendors
-- Managed service providers
+Cyber security governance requires collaboration across executive, clinical, digital, governance, and external functions of the Trust. The full stakeholder register, including roles, responsibilities, and level of interest in the programme, is maintained in [006-stakeholders.md](006-stakeholders.md).
 
 
 # 10. Cyber Security Context
