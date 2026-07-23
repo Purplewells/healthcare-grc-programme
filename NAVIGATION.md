@@ -96,9 +96,9 @@ New to the programme? Read in this order:
 |---|---|---|
 | [051-security_strategy](05-Governance/051-security_strategy.md) | ✅ | Security strategy; charters the Cyber Security Governance Group (closes REC-001) |
 | [052-roles_and_responsibilities](05-Governance/052-roles_and_responsibilities.md) | ✅ | Governance roles, CSGG Terms of Reference, RACI matrix |
-| [053-information_security_policy](05-Governance/Security_Policies/053-information_security_policy.md) | ✅ | Overarching information security policy |
-| [054-access_control_policy](05-Governance/Security_Policies/054-access_control_policy.md) | ✅ | Access control policy — addresses CAF B2 and cloud identity single point of failure |
-| [055-supplier_security_policy](05-Governance/Security_Policies/055-supplier_security_policy.md) | ✅ | Supplier security policy — addresses third-party assurance gap |
+| [053-information_security_policy](05-Governance/053-information_security_policy.md) | ✅ | Overarching information security policy |
+| [054-access_control_policy](05-Governance/054-access_control_policy.md) | ✅ | Access control policy — addresses CAF B2 and cloud identity single point of failure |
+| [055-supplier_security_policy](05-Governance/055-supplier_security_policy.md) | ✅ | Supplier security policy — addresses third-party assurance gap |
 
 ### 06 — Information Governance
 

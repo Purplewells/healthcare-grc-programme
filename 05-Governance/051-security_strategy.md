@@ -14,7 +14,7 @@ This document sets out WHT's cyber security strategy: the vision, strategic obje
 
 ### 1.2 Scope
 
-This strategy covers cyber security governance, strategic prioritisation, and the operating structure needed to sustain risk management, compliance, and control effectiveness across WHT on an ongoing basis. It does not restate the detailed findings of the current-state or risk assessments — it responds to them. Operational roles and RACI detail are set out separately in [052-roles_and_responsibilities](052-roles_and_responsibilities.md); policy-level control requirements are set out in [Security_Policies/053-information_security_policy](Security_Policies/053-information_security_policy.md) and its companion policies.
+This strategy covers cyber security governance, strategic prioritisation, and the operating structure needed to sustain risk management, compliance, and control effectiveness across WHT on an ongoing basis. It does not restate the detailed findings of the current-state or risk assessments — it responds to them. Operational roles and RACI detail are set out separately in [052-roles_and_responsibilities](052-roles_and_responsibilities.md); policy-level control requirements are set out in [053-information_security_policy](053-information_security_policy.md) and its companion policies.
 
 ## 2. Strategic Context
 
@@ -89,4 +89,4 @@ This strategy is the connective layer between the programme's assessment phases 
 
 ## 7. Review & Next Steps
 
-This strategy will be reviewed annually by the CSGG, or sooner if a material change in the Trust's risk profile or regulatory environment occurs. Immediate next steps: convene the first CSGG meeting within Q3 2026; ratify [052-roles_and_responsibilities](052-roles_and_responsibilities.md) and the three policies in [Security_Policies/](Security_Policies/); and adopt the standing agenda in §4.2 from the first meeting onward.
+This strategy will be reviewed annually by the CSGG, or sooner if a material change in the Trust's risk profile or regulatory environment occurs. Immediate next steps: convene the first CSGG meeting within Q3 2026; ratify [052-roles_and_responsibilities](052-roles_and_responsibilities.md) and the three policies ([053-information_security_policy](053-information_security_policy.md), [054-access_control_policy](054-access_control_policy.md), [055-supplier_security_policy](055-supplier_security_policy.md)); and adopt the standing agenda in §4.2 from the first meeting onward.

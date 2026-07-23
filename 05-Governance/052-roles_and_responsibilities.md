@@ -55,7 +55,7 @@ RACI applied to the programme's key recurring cyber security activities. R = Res
 | Activity | CISO | SIRO | CDIO | DPO | CSGG | Audit and Risk Committee |
 |---|---|---|---|---|---|---|
 | Risk register maintenance and treatment tracking ([risk_register](../04-Risk-Management/risk_register.md)) | R | A | C | I | R | I |
-| Policy approval (Security_Policies/) | R | A | C | C | R | I |
+| Policy approval (053–055) | R | A | C | C | R | I |
 | Incident escalation and response governance | R | A | I | C | I | I |
 | Supplier security assurance decisions | R | C | C | I | A | I |
 | Compliance reporting (CAF / ISO 27001 / DSPT) | R | I | I | C | A | I |
