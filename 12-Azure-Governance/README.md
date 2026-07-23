@@ -6,8 +6,8 @@ Azure-specific security posture: governance assessment, conditional access, and 
 
 | Document | Status | Description |
 |---|---|---|
-| [Azure_Governance_Assessment.md](Azure_Governance_Assessment.md) | ⬜ | Not started |
-| [Conditional_Access_Policies.md](Conditional_Access_Policies.md) | ⬜ | Not started |
-| [Secure_Score_Review.md](Secure_Score_Review.md) | ⬜ | Not started |
+| [Azure_Governance_Assessment](Azure_Governance_Assessment.md) | ⬜ | Not started |
+| [Conditional_Access_Policies](Conditional_Access_Policies.md) | ⬜ | Not started |
+| [Secure_Score_Review](Secure_Score_Review.md) | ⬜ | Not started |
 
 **Status legend:** ✅ Complete · 🚧 Draft/Stub · ⬜ Not Started

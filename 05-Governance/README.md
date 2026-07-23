@@ -6,8 +6,8 @@ Security strategy, roles and responsibilities, and the policy set. Not yet start
 
 | Document | Status | Description |
 |---|---|---|
-| [Security_Strategy.md](Security_Strategy.md) | ⬜ | Not started |
-| [Roles_and_Responsibilities.md](Roles_and_Responsibilities.md) | ⬜ | Not started |
+| [Security_Strategy](Security_Strategy.md) | ⬜ | Not started |
+| [Roles_and_Responsibilities](Roles_and_Responsibilities.md) | ⬜ | Not started |
 | [Security_Policies/](Security_Policies/) | ⬜ | Empty folder |
 
 **Status legend:** ✅ Complete · 🚧 Draft/Stub · ⬜ Not Started

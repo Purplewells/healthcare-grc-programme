@@ -6,9 +6,9 @@ The improvement roadmap, 12-month plan, investment priorities, and quick wins �
 
 | Document | Status | Description |
 |---|---|---|
-| [cyber_security_roadmap.md](cyber_security_roadmap.md) | ⬜ | Not started (whitespace only) |
-| [12_month_improvement_plan.md](12_month_improvement_plan.md) | ⬜ | Not started |
-| [investment_priorities.md](investment_priorities.md) | ⬜ | Not started |
-| [quick_wins.md](quick_wins.md) | ⬜ | Not started |
+| [cyber_security_roadmap](cyber_security_roadmap.md) | ⬜ | Not started (whitespace only) |
+| [12_month_improvement_plan](12_month_improvement_plan.md) | ⬜ | Not started |
+| [investment_priorities](investment_priorities.md) | ⬜ | Not started |
+| [quick_wins](quick_wins.md) | ⬜ | Not started |
 
 **Status legend:** ✅ Complete · 🚧 Draft/Stub · ⬜ Not Started

@@ -2,7 +2,7 @@
 
 ## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
 
-**Organisation:** Westbridge University Hospitals Foundation Trust (WUHNFT)
+**Organisation:** Westbridge Hospitals Trust (WUHNFT)
 **Document Type:** Asset Management Overview
 **Owner:** Chief Information Security Officer (CISO)
 **Classification:** Portfolio Case Study – Fictional Organisation
@@ -68,7 +68,7 @@ The register in [022-master_assets_register.xlsx](022-master_assets_register.xls
 | Identity and Access | 3 | Microsoft Entra ID, Privileged Accounts, Clinical User Accounts |
 | Third-Party Service | 4 | NHS Digital Services, Clinical Software Vendors, Medical Device Suppliers, Managed Security Service Provider |
 
-The majority of clinical, patient-facing, and medical device assets are rated Restricted / Critical, reflecting their direct link to patient safety and care delivery, consistent with the Trust's risk appetite set out in [../01-Discovery/003-business-context.md](../01-Discovery/003-business-context.md).
+The majority of clinical, patient-facing, and medical device assets are rated Restricted / Critical, reflecting their direct link to patient safety and care delivery, consistent with the Trust's risk appetite set out in [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md).
 
 # 5. Asset Ownership Model
 

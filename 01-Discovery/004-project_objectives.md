@@ -7,7 +7,7 @@
 
 # 1. Purpose
 
-This document sets out the objectives for Project SentinelCare's Discovery phase. It translates the business drivers described in [003-business-context.md](003-business-context.md) into specific, assessable objectives, each linked to the relevant NCSC Cyber Assessment Framework (CAF) outcome and to the maturity scale defined in [001-executive_brief.md](001-executive_brief.md) (Section 9).
+This document sets out the objectives for Project SentinelCare's Discovery phase. It translates the business drivers described in [003-business-context](003-business-context.md) into specific, assessable objectives, each linked to the relevant NCSC Cyber Assessment Framework (CAF) outcome and to the maturity scale defined in [001-executive_brief](001-executive_brief.md) (Section 9).
 
 Objectives are stated qualitatively rather than against fixed dates or numeric targets. Discovery is a point-in-time assessment; committing to delivery dates or hard maturity scores is more appropriate once a baseline has actually been established and a treatment plan agreed with the Trust Board.
 
@@ -42,12 +42,12 @@ Objectives are stated qualitatively rather than against fixed dates or numeric t
 The following are explicitly not objectives of the Discovery phase:
 
 - Delivery or implementation of remediation activity — Discovery identifies and prioritises; delivery is addressed in a subsequent phase.
-- Live technical testing, penetration testing, or vulnerability scanning (see constraint C-007 in [007-assumptions_and_constraints.md](007-assumptions_and_constraints.md)).
+- Live technical testing, penetration testing, or vulnerability scanning (see constraint C-007 in [007-assumptions_and_constraints](007-assumptions_and_constraints.md)).
 - Formal submission of the NHS Data Security and Protection Toolkit (DSPT) — the assessment aligns to DSPT's evidence structure but does not constitute a submission.
 - Certification against ISO/IEC 27001 — the assessment maps current practice to ISO 27001 controls but does not represent a certification audit.
 
 # 5. Relationship to Other Documents
 
-- Objectives are bounded by the scope defined in [005-project_scope.md](005-project_scope.md).
-- Objectives are assessed subject to the assumptions and constraints in [007-assumptions_and_constraints.md](007-assumptions_and_constraints.md).
-- Progress against objectives will be reported using the maturity scale defined in [001-executive_brief.md](001-executive_brief.md).
+- Objectives are bounded by the scope defined in [005-project_scope](005-project_scope.md).
+- Objectives are assessed subject to the assumptions and constraints in [007-assumptions_and_constraints](007-assumptions_and_constraints.md).
+- Progress against objectives will be reported using the maturity scale defined in [001-executive_brief](001-executive_brief.md).

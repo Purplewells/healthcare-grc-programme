@@ -6,9 +6,9 @@ Vulnerability management, patching, secure baselines, and threat intelligence. O
 
 | Document | Status | Description |
 |---|---|---|
-| [061-vulnerability_register.md](061-vulnerability_register.md) | 🚧 | Title only |
-| [062-patch_management.md](062-patch_management.md) | 🚧 | Title only |
-| [063-secure_baseline.md](063-secure_baseline.md) | ⬜ | Not started |
-| [064-threat_intelligence.md](064-threat_intelligence.md) | ⬜ | Not started |
+| [061-vulnerability_register](061-vulnerability_register.md) | 🚧 | Title only |
+| [062-patch_management](062-patch_management.md) | 🚧 | Title only |
+| [063-secure_baseline](063-secure_baseline.md) | ⬜ | Not started |
+| [064-threat_intelligence](064-threat_intelligence.md) | ⬜ | Not started |
 
 **Status legend:** ✅ Complete · 🚧 Draft/Stub · ⬜ Not Started

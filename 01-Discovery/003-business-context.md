@@ -6,7 +6,7 @@
 
 # 1. Introduction
 
-Westbridge University Hospitals Foundation Trust (WUHNFT) has undergone significant digital transformation to improve healthcare delivery, enhance patient experience, and support clinical decision-making.
+Westbridge Hospitals Trust (WUHNFT) has undergone significant digital transformation to improve healthcare delivery, enhance patient experience, and support clinical decision-making.
 
 Digital technologies now underpin almost every aspect of Trust operations, from electronic patient records and diagnostic services to patient communication platforms and research systems.
 
@@ -259,7 +259,7 @@ Potential consequences include:
 
 # 5. Project SentinelCare Objectives
 
-The programme aims to strengthen cyber security governance and improve organisational resilience, addressing the business challenges set out in Section 3. The full set of objectives, baselines, and CAF outcome mapping is defined in [004-project_objectives.md](004-project_objectives.md).
+The programme aims to strengthen cyber security governance and improve organisational resilience, addressing the business challenges set out in Section 3. The full set of objectives, baselines, and CAF outcome mapping is defined in [004-project_objectives](004-project_objectives.md).
 
 
 # 6. Expected Business Outcomes

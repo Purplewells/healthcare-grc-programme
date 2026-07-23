@@ -6,9 +6,9 @@ How the Trust classifies and protects information, and the data protection impac
 
 | Document | Status | Description |
 |---|---|---|
-| [041-data_classification.md](041-data_classification.md) | ✅ | Data classification scheme |
-| [042-data_protection_impact_assessment.md](042-data_protection_impact_assessment.md) | ✅ | DPIA |
-| [Data_Lineage_Assessment.md](Data_Lineage_Assessment.md) | ⬜ | Not started |
+| [041-data_classification](041-data_classification.md) | ✅ | Data classification scheme |
+| [042-data_protection_impact_assessment](042-data_protection_impact_assessment.md) | ✅ | DPIA |
+| [Data_Lineage_Assessment](Data_Lineage_Assessment.md) | ⬜ | Not started |
 | [Data_Flow_Diagrams/](Data_Flow_Diagrams/) | ⬜ | Empty folder |
 
 **Status legend:** ✅ Complete · 🚧 Draft/Stub · ⬜ Not Started

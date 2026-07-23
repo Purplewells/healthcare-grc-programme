@@ -2,7 +2,7 @@
 
 ## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
 
-**Organisation:** Westbridge University Hospitals Foundation Trust (WUHNFT)
+**Organisation:** Westbridge Hospitals Trust (WUHNFT)
 **Document Type:** Current State Assessment (Programme Overview)
 **Owner:** Chief Information Security Officer (CISO)
 **Classification:** Portfolio Case Study – Fictional Organisation
@@ -12,13 +12,13 @@
 
 ### 1.1 Purpose
 
-This document answers the question: **how good is the Trust's cyber security today?** It establishes the baseline current state of cyber security governance, risk management, asset management, and compliance across Westbridge University Hospitals Foundation Trust (WUHNFT), ahead of the detailed framework-specific assessments that follow in this folder: the NCSC Cyber Assessment Framework (CAF) review ([022-caf_assessment.md](022-caf_assessment.md)), the ISO/IEC 27001 assessment ([023-ISO27001_assessment.md](023-ISO27001_assessment.md)), and the NHS Data Security and Protection Toolkit (DSPT) review ([024-dsp_toolkit_review.md](024-dsp_toolkit_review.md)).
+This document answers the question: **how good is the Trust's cyber security today?** It establishes the baseline current state of cyber security governance, risk management, asset management, and compliance across Westbridge Hospitals Trust (WUHNFT), ahead of the detailed framework-specific assessments that follow in this folder: the NCSC Cyber Assessment Framework (CAF) review ([022-caf_assessment](022-caf_assessment.md)), the ISO/IEC 27001 assessment ([023-ISO27001_assessment](023-ISO27001_assessment.md)), and the NHS Data Security and Protection Toolkit (DSPT) review ([024-dsp_toolkit_review](024-dsp_toolkit_review.md)).
 
-It also provides the factual basis consolidated into the overall maturity roll-up in [025-maturity_assessment.md](025-maturity_assessment.md).
+It also provides the factual basis consolidated into the overall maturity roll-up in [025-maturity_assessment](025-maturity_assessment.md).
 
 ### 1.2 Scope
 
-This assessment covers: security governance and policy; cyber risk management; asset and medical device management; identity and access management (IAM); third-party supplier security; data governance; security monitoring; incident management; and business continuity, as these are the areas identified as business challenges in [../01-Discovery/003-business-context.md](../01-Discovery/003-business-context.md) §3.
+This assessment covers: security governance and policy; cyber risk management; asset and medical device management; identity and access management (IAM); third-party supplier security; data governance; security monitoring; incident management; and business continuity, as these are the areas identified as business challenges in [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md) §3.
 
 It does not cover clinical safety assessment (which follows the Trust's separate clinical governance process) or detailed technical penetration testing — technical testing outcomes, where referenced, are treated as supporting evidence only.
 
@@ -26,7 +26,7 @@ It does not cover clinical safety assessment (which follows the Trust's separate
 
 ### 2.1 Framework(s) Applied
 
-This overview assessment does not itself score against a named external framework — it synthesises the Trust's cyber risk register ([../04-Risk-Management/risk_register.md](../04-Risk-Management/risk_register.md)), asset management documentation ([../02-Asset-Management/](../02-Asset-Management/)), and business context ([../01-Discovery/003-business-context.md](../01-Discovery/003-business-context.md)) into a single current-state picture, using the maturity scale defined below. Framework-specific scoring against NCSC CAF, ISO/IEC 27001:2022, and NHS DSPT is performed in the three assessments that follow this one.
+This overview assessment does not itself score against a named external framework — it synthesises the Trust's cyber risk register ([../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md)), asset management documentation ([../02-Asset-Management/](../02-Asset-Management/)), and business context ([../01-Discovery/003-business-context](../01-Discovery/003-business-context.md)) into a single current-state picture, using the maturity scale defined below. Framework-specific scoring against NCSC CAF, ISO/IEC 27001:2022, and NHS DSPT is performed in the three assessments that follow this one.
 
 ### 2.2 Rating Scale
 
@@ -40,9 +40,9 @@ This overview assessment does not itself score against a named external framewor
 
 ## 3. Current State
 
-WUHNFT has undergone rapid digital transformation over the past five years — expanding cloud adoption, electronic patient records, connected medical devices, and patient-facing digital services (see [../01-Discovery/002-organisation_profile.md](../01-Discovery/002-organisation_profile.md) §6). Cyber security governance, risk management, and compliance processes have not scaled at the same pace, which is the core driver behind Project SentinelCare.
+WUHNFT has undergone rapid digital transformation over the past five years — expanding cloud adoption, electronic patient records, connected medical devices, and patient-facing digital services (see [../01-Discovery/002-organisation_profile](../01-Discovery/002-organisation_profile.md) §6). Cyber security governance, risk management, and compliance processes have not scaled at the same pace, which is the core driver behind Project SentinelCare.
 
-Governance activity currently exists but is fragmented: security policies are in place but not consistently maintained or applied across departments, and there is limited evidence of control effectiveness reporting to a central governance forum. Risk management has recently been formalised through the central Cyber Risk Register ([../04-Risk-Management/risk_register.md](../04-Risk-Management/risk_register.md)), which records 12 active risks (CR-001 to CR-012), 8 of which are rated High or Critical — but risk ownership is still maturing and treatment plans are largely in the Planned stage rather than embedded business-as-usual activity.
+Governance activity currently exists but is fragmented: security policies are in place but not consistently maintained or applied across departments, and there is limited evidence of control effectiveness reporting to a central governance forum. Risk management has recently been formalised through the central Cyber Risk Register ([../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md)), which records 12 active risks (CR-001 to CR-012), 8 of which are rated High or Critical — but risk ownership is still maturing and treatment plans are largely in the Planned stage rather than embedded business-as-usual activity.
 
 Asset management has matured considerably following the completion of the master asset register ([../02-Asset-Management/022-master_assets_register.xlsx](../02-Asset-Management/022-master_assets_register.xlsx)), which records 35 assets across eight categories with assigned owners and criticality ratings. However, this maturity has surfaced specific weaknesses: 25 medical devices were identified as running unsupported operating systems (2 of 11 sampled devices in [../02-Asset-Management/024-medical_device_register.xlsx](../02-Asset-Management/024-medical_device_register.xlsx) are flagged "Unsupported - Risk Accepted"), and the Trust depends on more than 150 external suppliers without a central supplier security assessment process.
 
@@ -52,11 +52,11 @@ Identity and access management, data governance, and security monitoring remain 
 
 ### 4.1 Security Governance is Fragmented
 
-Security policies exist but are applied inconsistently across departments, with no single governance forum currently reviewing control effectiveness across the whole Trust. (Ref: [../01-Discovery/003-business-context.md](../01-Discovery/003-business-context.md) §3.2)
+Security policies exist but are applied inconsistently across departments, with no single governance forum currently reviewing control effectiveness across the whole Trust. (Ref: [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md) §3.2)
 
 ### 4.2 Cyber Risk Management is Newly Centralised but Immature
 
-A central Cyber Risk Register now exists and records 12 risks, 8 of which are High or Critical, but most treatment actions remain "Planned" rather than in progress or embedded. (Ref: [../04-Risk-Management/risk_register.md](../04-Risk-Management/risk_register.md) §4, §6)
+A central Cyber Risk Register now exists and records 12 risks, 8 of which are High or Critical, but most treatment actions remain "Planned" rather than in progress or embedded. (Ref: [../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md) §4, §6)
 
 ### 4.3 Asset Management Has a Strong Foundation
 
@@ -64,33 +64,33 @@ A master asset register covering 35 assets across eight categories, each with an
 
 ### 4.4 Legacy Medical Devices Present Unpatched Risk
 
-25 medical devices are recorded as running unsupported operating systems, with vendor patching options limited for long-lifecycle clinical equipment. (Ref: [../02-Asset-Management/024-medical_device_register.xlsx](../02-Asset-Management/024-medical_device_register.xlsx); [../01-Discovery/003-business-context.md](../01-Discovery/003-business-context.md) §3.4)
+25 medical devices are recorded as running unsupported operating systems, with vendor patching options limited for long-lifecycle clinical equipment. (Ref: [../02-Asset-Management/024-medical_device_register.xlsx](../02-Asset-Management/024-medical_device_register.xlsx); [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md) §3.4)
 
 ### 4.5 Third-Party Supplier Assurance is Not Centrally Managed
 
-The Trust relies on over 150 external suppliers, but has no central process for assessing supplier security posture, embedding security requirements into contracts, or monitoring ongoing supplier risk. (Ref: [../02-Asset-Management/025-supplier_register.xlsx](../02-Asset-Management/025-supplier_register.xlsx); [../01-Discovery/003-business-context.md](../01-Discovery/003-business-context.md) §3.5)
+The Trust relies on over 150 external suppliers, but has no central process for assessing supplier security posture, embedding security requirements into contracts, or monitoring ongoing supplier risk. (Ref: [../02-Asset-Management/025-supplier_register.xlsx](../02-Asset-Management/025-supplier_register.xlsx); [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md) §3.5)
 
 ### 4.6 Identity and Access Management Has Excessive Privilege Exposure
 
-An internal review found users retaining unnecessary privileges, inadequate access reviews, and weak segregation of duties across some systems. (Ref: [../01-Discovery/003-business-context.md](../01-Discovery/003-business-context.md) §3.3)
+An internal review found users retaining unnecessary privileges, inadequate access reviews, and weak segregation of duties across some systems. (Ref: [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md) §3.3)
 
 ### 4.7 Data Governance Practices are Inconsistent
 
-An internal audit identified inconsistent data classification, excessive access permissions, and uncontrolled copies of patient reports stored outside approved systems. (Ref: [../01-Discovery/003-business-context.md](../01-Discovery/003-business-context.md) §3.6)
+An internal audit identified inconsistent data classification, excessive access permissions, and uncontrolled copies of patient reports stored outside approved systems. (Ref: [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md) §3.6)
 
 ### 4.8 Security Monitoring Capability is Limited
 
-The Trust has limited visibility of security events across its estate, constraining its ability to detect and respond to attacks in a timely manner. (Ref: [../04-Risk-Management/risk_register.md](../04-Risk-Management/risk_register.md) CR-009)
+The Trust has limited visibility of security events across its estate, constraining its ability to detect and respond to attacks in a timely manner. (Ref: [../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md) CR-009)
 
 ## 5. Evidence
 
 | Evidence ID | Description | Source | Date | Linked Observation |
 |---|---|---|---|---|
-| EVD-001 | Cyber Risk Register recording 12 risks, 8 High/Critical | [../04-Risk-Management/risk_register.md](../04-Risk-Management/risk_register.md) | 2026-07-23 | 4.2 |
+| EVD-001 | Cyber Risk Register recording 12 risks, 8 High/Critical | [../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md) | 2026-07-23 | 4.2 |
 | EVD-002 | Master Asset Register recording 35 assets across 8 categories | [../02-Asset-Management/022-master_assets_register.xlsx](../02-Asset-Management/022-master_assets_register.xlsx) | 2026-07-23 | 4.3 |
 | EVD-003 | Medical Device Register flagging unsupported devices | [../02-Asset-Management/024-medical_device_register.xlsx](../02-Asset-Management/024-medical_device_register.xlsx) | 2026-07-23 | 4.4 |
 | EVD-004 | Supplier Register covering NHS Digital, clinical software, device, and MSSP suppliers | [../02-Asset-Management/025-supplier_register.xlsx](../02-Asset-Management/025-supplier_register.xlsx) | 2026-07-23 | 4.5 |
-| EVD-005 | Internal review findings on access privileges and data governance | [../01-Discovery/003-business-context.md](../01-Discovery/003-business-context.md) §3.3, §3.6 | 2026-07-23 | 4.6, 4.7 |
+| EVD-005 | Internal review findings on access privileges and data governance | [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md) §3.3, §3.6 | 2026-07-23 | 4.6, 4.7 |
 
 ## 6. Analysis
 
@@ -129,4 +129,4 @@ The underlying root cause is that cyber security governance did not scale in ste
 
 ## 9. Conclusion
 
-WUHNFT enters Project SentinelCare with real strengths to build on — most notably a newly established, well-structured asset register and a central cyber risk register — but with governance, identity and access management, supplier assurance, and security monitoring still at an early stage of maturity. The risks this creates are not hypothetical: they are the same risks already rated Critical or High in the Trust's own risk register. The framework-specific assessments that follow (NCSC CAF, ISO/IEC 27001, NHS DSPT) will validate and add granularity to this picture, and the recommendations above form the starting point for the programme's prioritisation, carried forward into [025-maturity_assessment.md](025-maturity_assessment.md) and the improvement roadmap in [../14-RoadMap/](../14-RoadMap/).
+WUHNFT enters Project SentinelCare with real strengths to build on — most notably a newly established, well-structured asset register and a central cyber risk register — but with governance, identity and access management, supplier assurance, and security monitoring still at an early stage of maturity. The risks this creates are not hypothetical: they are the same risks already rated Critical or High in the Trust's own risk register. The framework-specific assessments that follow (NCSC CAF, ISO/IEC 27001, NHS DSPT) will validate and add granularity to this picture, and the recommendations above form the starting point for the programme's prioritisation, carried forward into [025-maturity_assessment](025-maturity_assessment.md) and the improvement roadmap in [../14-RoadMap/](../14-RoadMap/).

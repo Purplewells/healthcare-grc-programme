@@ -8,12 +8,12 @@
 
 ## Organisation Name
 
-**Westbridge University Hospitals Foundation Trust (WUHNFT)**
+**Westbridge Hospitals Trust (WUHNFT)**
 *(Fictional organisation created for portfolio purposes)*
 
 ## Organisation Profile
 
-Westbridge University Hospitals Foundation Trust is a large NHS healthcare provider delivering acute and specialist healthcare services across the West Midlands region.
+Westbridge Hospitals Trust is a large NHS healthcare provider delivering acute and specialist healthcare services across the West Midlands region.
 
 The Trust operates:
 
@@ -163,7 +163,7 @@ Taken together, these findings indicate the Trust sits at an early/developing le
 
 ## Risk Appetite
 
-The Trust's risk appetite is defined in [003-business-context.md](003-business-context.md) and should be read alongside this maturity assessment: broadly, the Trust has low tolerance for risks affecting patient safety or clinical service availability, and comparatively greater tolerance for risk in non-critical corporate functions.
+The Trust's risk appetite is defined in [003-business-context](003-business-context.md) and should be read alongside this maturity assessment: broadly, the Trust has low tolerance for risks affecting patient safety or clinical service availability, and comparatively greater tolerance for risk in non-critical corporate functions.
 
 ---
 
@@ -197,7 +197,7 @@ The Trust must demonstrate appropriate controls around:
 
 ### NIS Regulations 2018
 
-Acute NHS Trusts are typically designated Operators of Essential Services (OES) under the NIS Regulations given the criticality of the services they provide; the NCSC CAF is the assessment methodology used to demonstrate NIS compliance, rather than a separate, unrelated framework (see also [007-assumptions_and_constraints.md](007-assumptions_and_constraints.md)).
+Acute NHS Trusts are typically designated Operators of Essential Services (OES) under the NIS Regulations given the criticality of the services they provide; the NCSC CAF is the assessment methodology used to demonstrate NIS compliance, rather than a separate, unrelated framework (see also [007-assumptions_and_constraints](007-assumptions_and_constraints.md)).
 
 ### Digital Technology Assessment Criteria (DTAC) and Cyber Essentials Plus
 
@@ -220,7 +220,7 @@ The Board wants assurance that:
 
 > "The organisation understands its cybersecurity risks and has appropriate controls in place to protect patients, clinical services, and sensitive information."
 
-This assurance is provided jointly with the Trust's statutory information governance roles — the Senior Information Risk Owner (SIRO) and Caldicott Guardian — alongside the CISO. Full stakeholder responsibilities are set out in [006-stakeholders.md](006-stakeholders.md).
+This assurance is provided jointly with the Trust's statutory information governance roles — the Senior Information Risk Owner (SIRO) and Caldicott Guardian — alongside the CISO. Full stakeholder responsibilities are set out in [006-stakeholders](006-stakeholders.md).
 
 The legacy medical devices identified in Incident 2 also raise clinical safety considerations, not only technical ones: changes to how these devices are managed should have regard to the clinical safety standards DCB0129 and DCB0160 and relevant MHRA medical device cybersecurity guidance, in addition to standard IT asset and patch management practice.
 
@@ -300,7 +300,7 @@ Create dashboards showing:
 
 The programme is expected to progress through the following broad phases, without committing to fixed dates at this Discovery stage:
 
-1. **Discovery** — establish the current-state baseline, risk register, and governance documentation (this phase; see [004-project_objectives.md](004-project_objectives.md) and [005-project_scope.md](005-project_scope.md)).
+1. **Discovery** — establish the current-state baseline, risk register, and governance documentation (this phase; see [004-project_objectives](004-project_objectives.md) and [005-project_scope](005-project_scope.md)).
 2. **Risk treatment planning** — agree target maturity levels and prioritised remediation with the Board.
 3. **Assurance embedding** — implement, test, and embed controls into business-as-usual operations, with regular reporting against the objectives set out in this brief.
 
@@ -308,7 +308,7 @@ The programme is expected to progress through the following broad phases, withou
 
 # 9. Project Objectives
 
-The full set of programme objectives, baselines, and CAF outcome mapping is defined in [004-project_objectives.md](004-project_objectives.md). In summary, the programme aims to improve governance, reduce cyber risk, improve regulatory compliance, strengthen resilience, improve executive visibility, and increase workforce awareness.
+The full set of programme objectives, baselines, and CAF outcome mapping is defined in [004-project_objectives](004-project_objectives.md). In summary, the programme aims to improve governance, reduce cyber risk, improve regulatory compliance, strengthen resilience, improve executive visibility, and increase workforce awareness.
 
 ---
 
@@ -337,7 +337,7 @@ Project SentinelCare
 
 ## Assessment Methodology
 
-The assessment evaluates Westbridge University Hospitals Foundation Trust
+The assessment evaluates Westbridge Hospitals Trust
 against recognised cybersecurity frameworks:
 
 ### Frameworks

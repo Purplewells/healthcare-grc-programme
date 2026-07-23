@@ -2,7 +2,7 @@
 
 ## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
 
-**Organisation:** Westbridge University Hospitals Foundation Trust (WUHNFT)
+**Organisation:** Westbridge Hospitals Trust (WUHNFT)
 **Document Type:** Cyber Security Maturity Roll-Up
 **Owner:** Chief Information Security Officer (CISO)
 **Classification:** Portfolio Case Study – Fictional Organisation
@@ -12,21 +12,21 @@
 
 ### 1.1 Purpose
 
-This document consolidates the findings of [021-current_state_assessment.md](021-current_state_assessment.md), [022-caf_assessment.md](022-caf_assessment.md), [023-ISO27001_assessment.md](023-ISO27001_assessment.md), and [024-dsp_toolkit_review.md](024-dsp_toolkit_review.md) into a single overall maturity position, expressed on the domain-level scale used throughout this folder. It answers the question the Trust Board will ask after reviewing the individual assessments: *what is our overall maturity, and where should investment go first?* It is the primary input to the improvement roadmap in [../14-RoadMap/](../14-RoadMap/).
+This document consolidates the findings of [021-current_state_assessment](021-current_state_assessment.md), [022-caf_assessment](022-caf_assessment.md), [023-ISO27001_assessment](023-ISO27001_assessment.md), and [024-dsp_toolkit_review](024-dsp_toolkit_review.md) into a single overall maturity position, expressed on the domain-level scale used throughout this folder. It answers the question the Trust Board will ask after reviewing the individual assessments: *what is our overall maturity, and where should investment go first?* It is the primary input to the improvement roadmap in [../14-RoadMap/](../14-RoadMap/).
 
 ### 1.2 Scope
 
-This assessment covers the same nine domains assessed in [021-current_state_assessment.md](021-current_state_assessment.md) — Governance, Risk Management, Asset Management, Medical Device Security, Third-Party/Supplier Assurance, Identity and Access Management, Data Governance, Security Monitoring, and Incident Response & Business Continuity — rolling up the CAF, ISO 27001, and DSPT positions for each rather than introducing new evidence.
+This assessment covers the same nine domains assessed in [021-current_state_assessment](021-current_state_assessment.md) — Governance, Risk Management, Asset Management, Medical Device Security, Third-Party/Supplier Assurance, Identity and Access Management, Data Governance, Security Monitoring, and Incident Response & Business Continuity — rolling up the CAF, ISO 27001, and DSPT positions for each rather than introducing new evidence.
 
 ## 2. Assessment Criteria
 
 ### 2.1 Framework(s) Applied
 
-This is a cross-framework synthesis of NCSC CAF ([022-caf_assessment.md](022-caf_assessment.md)), ISO/IEC 27001:2022 ([023-ISO27001_assessment.md](023-ISO27001_assessment.md)), and NHS DSPT ([024-dsp_toolkit_review.md](024-dsp_toolkit_review.md)), rather than an assessment against a single named external framework.
+This is a cross-framework synthesis of NCSC CAF ([022-caf_assessment](022-caf_assessment.md)), ISO/IEC 27001:2022 ([023-ISO27001_assessment](023-ISO27001_assessment.md)), and NHS DSPT ([024-dsp_toolkit_review](024-dsp_toolkit_review.md)), rather than an assessment against a single named external framework.
 
 ### 2.2 Rating Scale
 
-The five-level maturity scale defined in [021-current_state_assessment.md](021-current_state_assessment.md) §2.2 is used: Initial, Developing, Established, Managed, Optimised.
+The five-level maturity scale defined in [021-current_state_assessment](021-current_state_assessment.md) §2.2 is used: Initial, Developing, Established, Managed, Optimised.
 
 ## 3. Current State
 
@@ -56,7 +56,7 @@ Third-Party/Supplier Assurance, Identity and Access Management, and Security Mon
 
 ### 4.3 Cross-Framework Convergence Increases Confidence in Priorities
 
-CAF, ISO 27001, and DSPT — three independently structured frameworks — all identify the same four leading gaps (medical devices, suppliers, access, monitoring), which is strong evidence these are genuine priorities rather than artefacts of a single assessment method. (Ref: [022-caf_assessment.md](022-caf_assessment.md) §6.1, [023-ISO27001_assessment.md](023-ISO27001_assessment.md) §6.1, [024-dsp_toolkit_review.md](024-dsp_toolkit_review.md) §6.1)
+CAF, ISO 27001, and DSPT — three independently structured frameworks — all identify the same four leading gaps (medical devices, suppliers, access, monitoring), which is strong evidence these are genuine priorities rather than artefacts of a single assessment method. (Ref: [022-caf_assessment](022-caf_assessment.md) §6.1, [023-ISO27001_assessment](023-ISO27001_assessment.md) §6.1, [024-dsp_toolkit_review](024-dsp_toolkit_review.md) §6.1)
 
 ### 4.4 Asset Management Demonstrates What Focused Investment Achieves
 
@@ -66,16 +66,16 @@ Asset Management improved from an undocumented state to a structured, owned regi
 
 | Evidence ID | Description | Source | Date | Linked Observation |
 |---|---|---|---|---|
-| EVD-001 | CAF principle-level achievement table | [022-caf_assessment.md](022-caf_assessment.md) §3 | 2026-07-23 | 4.1, 4.2 |
-| EVD-002 | ISO 27001 theme-level conformance table | [023-ISO27001_assessment.md](023-ISO27001_assessment.md) §3 | 2026-07-23 | 4.1, 4.2 |
-| EVD-003 | DSPT standard-level status table | [024-dsp_toolkit_review.md](024-dsp_toolkit_review.md) §3 | 2026-07-23 | 4.1, 4.2 |
+| EVD-001 | CAF principle-level achievement table | [022-caf_assessment](022-caf_assessment.md) §3 | 2026-07-23 | 4.1, 4.2 |
+| EVD-002 | ISO 27001 theme-level conformance table | [023-ISO27001_assessment](023-ISO27001_assessment.md) §3 | 2026-07-23 | 4.1, 4.2 |
+| EVD-003 | DSPT standard-level status table | [024-dsp_toolkit_review](024-dsp_toolkit_review.md) §3 | 2026-07-23 | 4.1, 4.2 |
 | EVD-004 | Master Asset Register and domain-specific extracts | [../02-Asset-Management/](../02-Asset-Management/) | 2026-07-23 | 4.4 |
 
 ## 6. Analysis
 
 ### 6.1 Findings
 
-The consolidated maturity position confirms the programme's initial hypothesis in [../01-Discovery/003-business-context.md](../01-Discovery/003-business-context.md): WUHNFT's cyber security capability has not scaled with its digital transformation. However, the picture is not uniformly weak — it is unevenly distributed, with Asset Management as a proof point that targeted investment produces measurable maturity gains within a single programme cycle. This reframes the programme's task from "fix everything" to "replicate the Asset Management approach for the three Initial-rated domains."
+The consolidated maturity position confirms the programme's initial hypothesis in [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md): WUHNFT's cyber security capability has not scaled with its digital transformation. However, the picture is not uniformly weak — it is unevenly distributed, with Asset Management as a proof point that targeted investment produces measurable maturity gains within a single programme cycle. This reframes the programme's task from "fix everything" to "replicate the Asset Management approach for the three Initial-rated domains."
 
 ### 6.2 Root Cause
 

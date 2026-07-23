@@ -6,7 +6,7 @@ Internal audit checklist, audit reporting, and corrective action tracking. Not y
 
 | Document | Status | Description |
 |---|---|---|
-| [Audit_Report.md](Audit_Report.md) | ⬜ | Not started |
+| [Audit_Report](Audit_Report.md) | ⬜ | Not started |
 | [Internal_Audit_Checklist.xlsx](Internal_Audit_Checklist.xlsx) | ⬜ | Not started |
 | [CAPA_Tracker.xlsx](CAPA_Tracker.xlsx) | ⬜ | Not started |
 

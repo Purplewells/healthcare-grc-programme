@@ -13,13 +13,13 @@ This document defines the boundaries of the Project SentinelCare Discovery phase
 
 ## 2.1 Organisational Scope
 
-- Westbridge University Hospitals Foundation Trust (WUHNFT) corporate, clinical, and digital functions as described in [002-organisation_profile.md](002-organisation_profile.md).
+- Westbridge Hospitals Trust (WUHNFT) corporate, clinical, and digital functions as described in [002-organisation_profile](002-organisation_profile.md).
 - All Trust sites: two acute hospitals, three community healthcare centres, and associated diagnostic, pharmacy, and research facilities.
 - Staff groups covered by the assessment's governance and awareness elements: clinical staff, administrative employees, contractors, students and researchers.
 
 ## 2.2 Technology and System Scope
 
-Drawing on the digital environment inventory in [002-organisation_profile.md](002-organisation_profile.md):
+Drawing on the digital environment inventory in [002-organisation_profile](002-organisation_profile.md):
 
 - Clinical systems: EPR, LIS, RIS, PACS, Pharmacy Management System, Theatre Management System.
 - Patient-facing services: online patient portal, appointment booking platform, remote consultation services, patient messaging.
@@ -37,13 +37,13 @@ The assessment evaluates current practice against:
 
 ## 2.4 Governance Domains
 
-Governance, risk management, asset management, identity and access management, data protection, incident response, supplier security, security monitoring, business continuity, and security culture — consistent with the assessment approach in [001-executive_brief.md](001-executive_brief.md), Section 9.
+Governance, risk management, asset management, identity and access management, data protection, incident response, supplier security, security monitoring, business continuity, and security culture — consistent with the assessment approach in [001-executive_brief](001-executive_brief.md), Section 9.
 
 # 3. Out of Scope
 
-- **Live technical testing.** No penetration testing, vulnerability scanning, or red-team activity is performed as part of this Discovery phase (see constraint C-007/C-008 in [007-assumptions_and_constraints.md](007-assumptions_and_constraints.md)).
+- **Live technical testing.** No penetration testing, vulnerability scanning, or red-team activity is performed as part of this Discovery phase (see constraint C-007/C-008 in [007-assumptions_and_constraints](007-assumptions_and_constraints.md)).
 - **Remediation delivery.** Implementation of controls, policy rollout, and technical fixes are addressed in a subsequent delivery phase, not Discovery.
-- **Third-party-hosted systems where the Trust is not the data controller.** Systems wholly owned and operated by external partners, where WUHNFT has no security or configuration responsibility, are excluded, though supplier assurance of these relationships (O-05 in [004-project_objectives.md](004-project_objectives.md)) is in scope.
+- **Third-party-hosted systems where the Trust is not the data controller.** Systems wholly owned and operated by external partners, where WUHNFT has no security or configuration responsibility, are excluded, though supplier assurance of these relationships (O-05 in [004-project_objectives](004-project_objectives.md)) is in scope.
 - **Formal DSPT submission or ISO 27001 certification.** The assessment informs readiness for both but does not constitute either.
 - **Clinical research systems operating under separate sponsor governance**, where WUHNFT acts as a host rather than data controller.
 
@@ -53,6 +53,6 @@ This document governs the Discovery phase only. Discovery establishes the curren
 
 # 5. Relationship to Other Documents
 
-- Objectives assessed within this scope are set out in [004-project_objectives.md](004-project_objectives.md).
-- Assumptions and constraints affecting how this scope is assessed are set out in [007-assumptions_and_constraints.md](007-assumptions_and_constraints.md).
-- Stakeholders engaged within this scope are set out in [006-stakeholders.md](006-stakeholders.md).
+- Objectives assessed within this scope are set out in [004-project_objectives](004-project_objectives.md).
+- Assumptions and constraints affecting how this scope is assessed are set out in [007-assumptions_and_constraints](007-assumptions_and_constraints.md).
+- Stakeholders engaged within this scope are set out in [006-stakeholders](006-stakeholders.md).
