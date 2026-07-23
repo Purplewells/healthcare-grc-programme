@@ -29,7 +29,7 @@ New to the programme? Read in this order:
 | 03 | [Current State Assessment](03-Current-State-Assessment/README.md) | ✅ Complete | 5/5 documents |
 | 04 | [Risk Management](04-Risk-Management/README.md) | ✅ Complete | 9/9 documents |
 | 05 | [Governance](05-Governance/README.md) | ✅ Complete | 5/5 documents |
-| 06 | [Information Governance](06-Information-Governance/README.md) | 🚧 Partial | 2/4 documents |
+| 06 | [Information Governance](06-Information-Governance/README.md) | ✅ Complete | 5/5 documents |
 | 07 | [Compliance](07-Compliance/README.md) | ⬜ Not Started | 0/4 documents |
 | 08 | [Incident Management](08-Incident-Management/README.md) | ⬜ Not Started | 0/3 documents |
 | 09 | [Security Operations](09-Security-Operations/README.md) | 🚧 Partial | 0/4 documents (2 stub titles) |
@@ -104,10 +104,11 @@ New to the programme? Read in this order:
 
 | Document | Status | Description |
 |---|---|---|
-| [041-data_classification](06-Information-Governance/041-data_classification.md) | ✅ | Data classification scheme |
-| [042-data_protection_impact_assessment](06-Information-Governance/042-data_protection_impact_assessment.md) | ✅ | DPIA |
-| [Data_Lineage_Assessment](06-Information-Governance/Data_Lineage_Assessment.md) | ⬜ | Not started |
-| [Data_Flow_Diagrams/](06-Information-Governance/Data_Flow_Diagrams/) | ⬜ | Empty folder |
+| [061-data_classification](06-Information-Governance/061-data_classification.md) | ✅ | Data classification scheme |
+| [062-data_protection_impact_assessment](06-Information-Governance/062-data_protection_impact_assessment.md) | ✅ | DPIA |
+| [063-data_lineage_assessment](06-Information-Governance/063-data_lineage_assessment.md) | ✅ | Data lineage across the digital estate |
+| [064-records_retention_schedule](06-Information-Governance/064-records_retention_schedule.md) | ✅ | Records retention and disposal schedule |
+| [Data_Flow_Diagrams/](06-Information-Governance/Data_Flow_Diagrams/) | ✅ | Standalone Mermaid data flow and trust-boundary diagrams |
 
 ### 07 — Compliance
 

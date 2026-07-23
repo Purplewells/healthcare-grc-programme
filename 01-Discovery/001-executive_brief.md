@@ -1,15 +1,12 @@
 # Cyber Security Governance, Risk and Compliance Assessment
 
-## Project Title
+## Project SentinelCare
 
-**Project SentinelCare: Cyber Security Governance, Risk and Compliance Improvement Programme**
+### Cyber Security Governance, Risk and Compliance Assessment and Improvement Programme**
 
 # 1. Organisation Overview
 
-## Organisation Name
-
-**Westbridge Hospitals Trust (WHT)**
-*(Fictional organisation created for portfolio purposes)*
+### Organisation Name : **Westbridge Hospitals Trust (WHT)** *(Fictional)*
 
 ## Organisation Profile
 
@@ -165,7 +162,6 @@ Taken together, these findings indicate the Trust sits at an early/developing le
 
 The Trust's risk appetite is defined in [003-business-context](003-business-context.md) and should be read alongside this maturity assessment: broadly, the Trust has low tolerance for risks affecting patient safety or clinical service availability, and comparatively greater tolerance for risk in non-critical corporate functions.
 
----
 
 # 5. Regulatory and Compliance Context
 
@@ -282,7 +278,6 @@ Review:
 * Communication process
 * Lessons learned process
 
----
 
 ### 6. Develop Security Reporting
 
@@ -294,7 +289,7 @@ Create dashboards showing:
 * Security awareness completion
 * Incident statistics
 
----
+
 
 # 8. Indicative Programme Phasing
 
@@ -304,13 +299,13 @@ The programme is expected to progress through the following broad phases, withou
 2. **Risk treatment planning** — agree target maturity levels and prioritised remediation with the Board.
 3. **Assurance embedding** — implement, test, and embed controls into business-as-usual operations, with regular reporting against the objectives set out in this brief.
 
----
+
 
 # 9. Project Objectives
 
 The full set of programme objectives, baselines, and CAF outcome mapping is defined in [004-project_objectives](004-project_objectives.md). In summary, the programme aims to improve governance, reduce cyber risk, improve regulatory compliance, strengthen resilience, improve executive visibility, and increase workforce awareness.
 
----
+
 
 # 10. Expected Deliverables
 

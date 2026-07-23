@@ -127,88 +127,13 @@ The Trust processes patient information to:
 
 # 9. Data Flow Overview
 
-The Patient Portal and Healthcare Interoperability Platform enables patients, clinicians, and authorised healthcare partners to securely exchange healthcare information.
+The Patient Portal and Healthcare Interoperability Platform enables patients, clinicians, and authorised healthcare partners to securely exchange healthcare information. The data flow represents how patient information moves between external users, digital services, clinical systems, and supporting security controls.
 
-The data flow represents how patient information moves between external users, digital services, clinical systems, and supporting security controls.
+This diagram, and the accompanying trust boundary model, have been extracted into standalone, colour-coded files so they can be referenced from both this DPIA and [063-data_lineage_assessment](063-data_lineage_assessment.md) without duplication:
 
-```mermaid
-flowchart TD
+- [Data_Flow_Diagrams/001-patient_portal_data_flow](Data_Flow_Diagrams/001-patient_portal_data_flow.md) — full system data flow (patient, portal, API gateway, FHIR layer, clinical systems, security monitoring)
+- [Data_Flow_Diagrams/002-patient_portal_trust_boundary](Data_Flow_Diagrams/002-patient_portal_trust_boundary.md) — simplified security trust boundary model, useful for DPIA, CAF A2/A3, ISO 27001, and STRIDE threat modelling
 
-    A[Patient] -->|Authentication and Access Request| B[Patient Portal]
-
-    B -->|Secure HTTPS Connection| C[API Gateway]
-
-    C -->|OAuth 2.0 / OpenID Connect Authentication| D[FHIR API Integration Layer]
-
-    D -->|Secure API Exchange| E[Electronic Patient Record EPR]
-
-    D -->|Clinical Data Exchange| F[Laboratory Information System LIS]
-
-    D -->|Diagnostic Data Exchange| G[Radiology Information System RIS]
-
-    D -->|Medication Information Exchange| H[Pharmacy Management System]
-
-    D -->|Appointment and Messaging Data| I[Patient Communication Services]
-
-
-    E --> J[Clinical Users]
-    F --> J
-    G --> J
-    H --> J
-
-
-    C --> K[API Security Monitoring]
-
-    D --> K
-
-    K --> L[Security Operations Centre SOC]
-
-    B --> M[Audit Logging]
-
-    C --> M
-
-    D --> M
-
-    E --> M
-    M --> N[Information Governance Monitoring]
-
-```
-For a GRC/DPIA document, this is useful because it demonstrates:
-
-| DPIA Requirement               | Mermaid Component                    |
-| ------------------------------ | ------------------------------------ |
-| Identify data sources          | Patient Portal                       |
-| Identify processing systems    | FHIR API, EPR, LIS, RIS              |
-| Identify recipients            | Clinical Users                       |
-| Identify security controls     | API Gateway, Authentication, Logging |
-| Identify monitoring capability | SOC and IG Monitoring                |
-
----
-This represents a simplified security trust boundary model for the DPIA.
-- DPIA Assessment → understanding personal data flows.
-- NCSC CAF A2 / A3 → protecting systems and data.
-- ISO 27001 → security architecture and access control.
-- STRIDE Threat Modelling → identifying threats at each boundary.
-
-```mermaid
-flowchart TD
-
-    A[External User Zone<br/>Patients, Healthcare Partners, External Users]
-    
-    B[Internet Boundary<br/>Public Network, Security Controls, API Gateway]
-    
-    C[Trust Application Zone<br/>Patient Portal, Web Applications, Integration Services]
-    
-    D[Clinical System Zone<br/>EPR, LIS, RIS, PACS, Pharmacy Systems]
-    
-    E[Sensitive Data Zone<br/>Patient Records, Medical Data, Research Information]
-
-    A -->|Secure Access| B
-    B -->|Authenticated Requests| C
-    C -->|Controlled Data Exchange| D
-    D -->|Authorised Data Access| E
-
-```
 ## Privacy Risks Assessment
 
 | Risk ID  | Privacy Risk                                        | Likelihood | Impact | Risk Level |
