@@ -40,7 +40,7 @@ Intelligence gathered through this process is used to keep the threat actor rati
 - Ransomware and data-extortion intelligence (044 §4.1) is prioritised, consistent with CR-001 being the Trust's highest-scored risk.
 - Cloud identity phishing/MFA-fatigue intelligence (044 §4.2) is routed to the IAM Manager given CAF B2 is rated Not Achieved.
 - Supply chain compromise intelligence (044 §4.3) is routed to Procurement per the supplier assurance process ([../05-Governance/055-supplier_security_policy](../05-Governance/055-supplier_security_policy.md)).
-- Advisories on unsupported/legacy system exploitation (044 §4.4) are routed directly to [061-vulnerability_register](061-vulnerability_register.md) and, where medical devices are affected, to the Clinical Engineering Manager as CR-003 risk owner.
+- Advisories on unsupported/legacy system exploitation (044 §4.4) are routed directly to [091-vulnerability_register](091-vulnerability_register.md) and, where medical devices are affected, to the Clinical Engineering Manager as CR-003 risk owner.
 
 
 
@@ -56,7 +56,7 @@ flowchart TD
     A[Intelligence received:<br/>NCSC / CareCERT / MSSP / vendor]:::entry
     B[CISO triages relevance to WHT estate]:::phase
     C{Relevant to a known<br/>vulnerability or risk?}:::decision
-    D[Update 061-vulnerability_register<br/>or flag new vulnerability]:::output
+    D[Update 091-vulnerability_register<br/>or flag new vulnerability]:::output
     E[Update relevant Cyber Risk Register entry]:::output
     F[No action beyond log;<br/>retained for trend analysis]:::phase
     G[Report to Cyber Security<br/>Governance Group]:::escalation

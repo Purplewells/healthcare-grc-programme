@@ -33,8 +33,8 @@ New to the programme? Read in this order:
 | 07 | [Compliance](07-Compliance/README.md) | ✅ Complete | 4/4 documents |
 | 08 | [Incident Management](08-Incident-Management/README.md) | ✅ Complete | 3/3 documents |
 | 09 | [Security Operations](09-Security-Operations/README.md) | ✅ Complete | 4/4 documents |
-| 10 | [Business Continuity](10-Business-Continuity/README.md) | ⬜ Not Started | 0/2 documents |
-| 11 | [Audit](11-Audit/README.md) | ⬜ Not Started | 0/3 documents |
+| 10 | [Business Continuity](10-Business-Continuity/README.md) | ✅ Complete | 2/2 documents |
+| 11 | [Audit](11-Audit/README.md) | ✅ Complete | 3/3 documents |
 | 12 | [Azure Governance](12-Azure-Governance/README.md) | ⬜ Not Started | 0/3 documents |
 | 13 | [Security Metrics](13-Security-Metrics/README.md) | 🚧 Partial | 0/6 documents (4 stub titles) |
 | 14 | [RoadMap](14-RoadMap/README.md) | ⬜ Not Started | 0/4 documents |
@@ -140,16 +140,16 @@ New to the programme? Read in this order:
 
 | Document | Status | Description |
 |---|---|---|
-| [Business_Continuity_Plan](10-Business-Continuity/Business_Continuity_Plan.md) | ⬜ | Not started |
-| [Disaster_Recovery_Plan](10-Business-Continuity/Disaster_Recovery_Plan.md) | ⬜ | Not started |
+| [101-business_continuity_plan](10-Business-Continuity/101-business_continuity_plan.md) | ✅ | Business impact analysis, service continuity tiers, invocation process, and untested-exercise gap |
+| [102-disaster_recovery_plan](10-Business-Continuity/102-disaster_recovery_plan.md) | ✅ | RTO/RPO targets, backup architecture, recovery priority order, and untested-restore gap |
 
 ### 11 — Audit
 
 | Document | Status | Description |
 |---|---|---|
-| [Audit_Report](11-Audit/Audit_Report.md) | ⬜ | Not started |
-| [Internal_Audit_Checklist.xlsx](11-Audit/Internal_Audit_Checklist.xlsx) | ⬜ | Not started |
-| [CAPA_Tracker.xlsx](11-Audit/CAPA_Tracker.xlsx) | ⬜ | Not started |
+| [111-internal_audit_report](11-Audit/111-internal_audit_report.md) | ✅ | Audit scope, methodology, 9 findings, overall opinion (Limited Assurance), recommendations |
+| [112-internal_audit_checklist.xlsx](11-Audit/112-internal_audit_checklist.xlsx) | ✅ | 22-item control walkthrough across governance, risk, asset, vulnerability, IAM, monitoring, incident, and BC/DR domains |
+| [113-capa_tracker.xlsx](11-Audit/113-capa_tracker.xlsx) | ✅ | Corrective and Preventive Action tracker — one CAPA per audit finding |
 
 ### 12 — Azure Governance
 
@@ -189,7 +189,7 @@ New to the programme? Read in this order:
 
 ## Known Cross-Reference Gap
 
-[022-caf_assessment](03-Current-State-Assessment/022-caf_assessment.md) and [023-ISO27001_assessment](03-Current-State-Assessment/023-ISO27001_assessment.md) reference `08-Incident-Management/` and `10-Business-Continuity/` plans as existing evidence of documented incident and continuity planning. **Phase 08 is now resolved**: [081-incident_response_plan](08-Incident-Management/081-incident_response_plan.md) and [082-ransomware_tabletop_exercise](08-Incident-Management/082-ransomware_tabletop_exercise.md) genuinely exist and are consistent with the CAF D1/D2 and DSPT Standard 6/7 ratings that cite them. **Phase 10 remains outstanding** (see Phase 10 above) — the assessments' references to Business Continuity and Disaster Recovery Plans still describe an *intended* state, not verified current content. Treat those specific claims as provisional until 10 is written up.
+[022-caf_assessment](03-Current-State-Assessment/022-caf_assessment.md) and [023-ISO27001_assessment](03-Current-State-Assessment/023-ISO27001_assessment.md) reference `08-Incident-Management/` and `10-Business-Continuity/` plans as existing evidence of documented incident and continuity planning. **Both phases are now resolved**: [081-incident_response_plan](08-Incident-Management/081-incident_response_plan.md), [082-ransomware_tabletop_exercise](08-Incident-Management/082-ransomware_tabletop_exercise.md), [10-Business-Continuity/101-business_continuity_plan](10-Business-Continuity/101-business_continuity_plan.md), and [10-Business-Continuity/102-disaster_recovery_plan](10-Business-Continuity/102-disaster_recovery_plan.md) genuinely exist and are consistent with the CAF D1/D2 Partially Achieved, B5 Not Achieved, and DSPT Standard 6/7 ratings that cite them — including the specific untested-exercise and untested-restore gaps those ratings already flagged as open.
 
 ## Maintaining This File
 
