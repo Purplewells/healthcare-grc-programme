@@ -1,8 +1,6 @@
 # Medical Device Risk Assessment
 
-## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
-
-**Organisation:** Westbridge Hospitals Trust (WUHNFT)
+**Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** Domain Risk Assessment — Medical Devices
 **Owner:** Clinical Engineering Manager
 **Classification:** Portfolio Case Study – Fictional Organisation
@@ -64,7 +62,7 @@ Six of eleven sampled devices are rated Critical business criticality, all locat
 
 ### 6.1 Findings
 
-Medical device risk at WUHNFT is structurally different from general IT risk because remediation is vendor-gated rather than Trust-controlled. This means the standard treatment options available elsewhere in the estate (patch, upgrade, replace on a Trust-driven timeline) are not directly available here — risk treatment must rely on network segmentation, access control, and monitoring as compensating controls until device replacement is financially and operationally feasible.
+Medical device risk at WHT is structurally different from general IT risk because remediation is vendor-gated rather than Trust-controlled. This means the standard treatment options available elsewhere in the estate (patch, upgrade, replace on a Trust-driven timeline) are not directly available here — risk treatment must rely on network segmentation, access control, and monitoring as compensating controls until device replacement is financially and operationally feasible.
 
 ### 6.2 Root Cause
 
@@ -89,4 +87,4 @@ The root cause is the long operational lifecycle of clinical equipment relative 
 
 ## 9. Conclusion
 
-Medical device risk at WUHNFT is concentrated in two named legacy devices (MD-004, MD-011) but reflects a structural, Trust-wide pattern of 25 unsupported devices whose remediation is vendor-gated. Since direct patching is not available, network segmentation (REC-002) is the highest-priority compensating control and should be implemented ahead of the longer device replacement programme. This assessment's findings feed directly into DSPT Standard 8 evidence requirements ([../03-Current-State-Assessment/024-dsp_toolkit_review](../03-Current-State-Assessment/024-dsp_toolkit_review.md)) and the Trust-wide risk register entry CR-003.
+Medical device risk at WHT is concentrated in two named legacy devices (MD-004, MD-011) but reflects a structural, Trust-wide pattern of 25 unsupported devices whose remediation is vendor-gated. Since direct patching is not available, network segmentation (REC-002) is the highest-priority compensating control and should be implemented ahead of the longer device replacement programme. This assessment's findings feed directly into DSPT Standard 8 evidence requirements ([../03-Current-State-Assessment/024-dsp_toolkit_review](../03-Current-State-Assessment/024-dsp_toolkit_review.md)) and the Trust-wide risk register entry CR-003.

@@ -1,8 +1,6 @@
 # NCSC CAF Assessment
 
-## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
-
-**Organisation:** Westbridge Hospitals Trust (WUHNFT)
+**Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** NCSC Cyber Assessment Framework (CAF) Assessment
 **Owner:** Chief Information Security Officer (CISO)
 **Classification:** Portfolio Case Study – Fictional Organisation
@@ -12,7 +10,7 @@
 
 ### 1.1 Purpose
 
-This assessment measures WUHNFT's current cyber security capability against the NCSC Cyber Assessment Framework (CAF) v3.2, as adopted by NHS England for the DSPT's CAF-aligned assertions. It builds on the cross-domain findings in [021-current_state_assessment](021-current_state_assessment.md) and provides the CAF-specific evidence base feeding into the DSPT review ([024-dsp_toolkit_review](024-dsp_toolkit_review.md)) and the overall maturity roll-up ([025-maturity_assessment](025-maturity_assessment.md)).
+This assessment measures WHT's current cyber security capability against the NCSC Cyber Assessment Framework (CAF) v3.2, as adopted by NHS England for the DSPT's CAF-aligned assertions. It builds on the cross-domain findings in [021-current_state_assessment](021-current_state_assessment.md) and provides the CAF-specific evidence base feeding into the DSPT review ([024-dsp_toolkit_review](024-dsp_toolkit_review.md)) and the overall maturity roll-up ([025-maturity_assessment](025-maturity_assessment.md)).
 
 ### 1.2 Scope
 
@@ -117,4 +115,4 @@ The root cause mirrors that identified in the wider current state assessment: go
 
 ## 9. Conclusion
 
-Against the NCSC CAF, WUHNFT currently sits predominantly at Partially Achieved or Not Achieved across all four objectives, with no principle yet meeting the full "Achieved" standard. The clearest priorities are closing the two Not Achieved principles in Objective C (Detecting Cyber Security Events) and the three in Objective B related to access control, resilience, and awareness, since these represent both the framework's largest gaps and the areas most directly linked to the Trust's highest-scored risks. This position is carried forward into the DSPT review ([024-dsp_toolkit_review](024-dsp_toolkit_review.md)), which maps directly to a subset of these CAF outcomes, and into the overall maturity roll-up in [025-maturity_assessment](025-maturity_assessment.md).
+Against the NCSC CAF, WHT currently sits predominantly at Partially Achieved or Not Achieved across all four objectives, with no principle yet meeting the full "Achieved" standard. The clearest priorities are closing the two Not Achieved principles in Objective C (Detecting Cyber Security Events) and the three in Objective B related to access control, resilience, and awareness, since these represent both the framework's largest gaps and the areas most directly linked to the Trust's highest-scored risks. This position is carried forward into the DSPT review ([024-dsp_toolkit_review](024-dsp_toolkit_review.md)), which maps directly to a subset of these CAF outcomes, and into the overall maturity roll-up in [025-maturity_assessment](025-maturity_assessment.md).

@@ -1,5 +1,9 @@
+# Project SentinelCare
+
+## Cyber Security Governance, Risk and Compliance Improvement Programme
+
 ## Executive Summary
-> Project SentinelCare is a simulated cybersecurity consultancy engagement undertaken for Westbridge University Hospitals NHS Foundation Trust, a fictional NHS healthcare provider undergoing digital transformation.
+> Project SentinelCare is a simulated cybersecurity consultancy engagement undertaken for Westbridge Hospitals Trust, a fictional NHS healthcare provider undergoing digital transformation.
 
 The Trust has expanded its digital estate through cloud adoption, electronic patient records, connected medical devices, and third-party digital health services. While these initiatives have improved patient care and operational efficiency, they have also increased cyber risk, regulatory obligations, and governance complexity.
 

@@ -1,8 +1,6 @@
 # Risk Heat Map
 
-## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
-
-**Organisation:** Westbridge Hospitals Trust (WUHNFT)
+**Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** Risk Heat Map
 **Owner:** Chief Information Security Officer (CISO)
 **Classification:** Portfolio Case Study – Fictional Organisation
@@ -95,4 +93,4 @@ The clustering pattern is explained by the same root cause identified across thi
 
 ## 9. Conclusion
 
-The heat map confirms visually what the risk register shows in tabular form: WUHNFT's risk profile is currently concentrated at High and Critical, anchored by a single maximum-severity risk (CR-001, ransomware). This visualisation is intended for executive reporting; the detailed treatment status for each risk is maintained in [046-risk_treatment_plans](046-risk_treatment_plans.md), and the underlying scoring methodology in [047-risk_methodology](047-risk_methodology.md).
+The heat map confirms visually what the risk register shows in tabular form: WHT's risk profile is currently concentrated at High and Critical, anchored by a single maximum-severity risk (CR-001, ransomware). This visualisation is intended for executive reporting; the detailed treatment status for each risk is maintained in [046-risk_treatment_plans](046-risk_treatment_plans.md), and the underlying scoring methodology in [047-risk_methodology](047-risk_methodology.md).

@@ -1,8 +1,6 @@
 # Digital Asset Estate
 
-## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
-
-**Organisation:** Westbridge Hospitals Trust (WUHNFT)
+**Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** Asset Management Overview
 **Owner:** Chief Information Security Officer (CISO)
 **Classification:** Portfolio Case Study – Fictional Organisation

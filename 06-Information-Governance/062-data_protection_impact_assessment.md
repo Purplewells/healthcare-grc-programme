@@ -1,7 +1,5 @@
 # Data Protection Impact Assessment (DPIA)
-## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
-
-**Organisation:** Westbridge Hospitals Trust (WUHNFT)  
+**Organisation:** Westbridge Hospitals Trust (WHT)  
 **Assessment Subject:** Patient Portal and Healthcare Interoperability Platform (FHIR API)  
 **Document Type:** Data Protection Impact Assessment  
 **Owner:** Data Protection Officer (DPO)  

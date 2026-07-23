@@ -1,8 +1,6 @@
 # Current State Assessment
 
-## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
-
-**Organisation:** Westbridge Hospitals Trust (WUHNFT)
+**Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** Current State Assessment (Programme Overview)
 **Owner:** Chief Information Security Officer (CISO)
 **Classification:** Portfolio Case Study – Fictional Organisation
@@ -12,7 +10,7 @@
 
 ### 1.1 Purpose
 
-This document answers the question: **how good is the Trust's cyber security today?** It establishes the baseline current state of cyber security governance, risk management, asset management, and compliance across Westbridge Hospitals Trust (WUHNFT), ahead of the detailed framework-specific assessments that follow in this folder: the NCSC Cyber Assessment Framework (CAF) review ([022-caf_assessment](022-caf_assessment.md)), the ISO/IEC 27001 assessment ([023-ISO27001_assessment](023-ISO27001_assessment.md)), and the NHS Data Security and Protection Toolkit (DSPT) review ([024-dsp_toolkit_review](024-dsp_toolkit_review.md)).
+This document answers the question: **how good is the Trust's cyber security today?** It establishes the baseline current state of cyber security governance, risk management, asset management, and compliance across Westbridge Hospitals Trust (WHT), ahead of the detailed framework-specific assessments that follow in this folder: the NCSC Cyber Assessment Framework (CAF) review ([022-caf_assessment](022-caf_assessment.md)), the ISO/IEC 27001 assessment ([023-ISO27001_assessment](023-ISO27001_assessment.md)), and the NHS Data Security and Protection Toolkit (DSPT) review ([024-dsp_toolkit_review](024-dsp_toolkit_review.md)).
 
 It also provides the factual basis consolidated into the overall maturity roll-up in [025-maturity_assessment](025-maturity_assessment.md).
 
@@ -40,7 +38,7 @@ This overview assessment does not itself score against a named external framewor
 
 ## 3. Current State
 
-WUHNFT has undergone rapid digital transformation over the past five years — expanding cloud adoption, electronic patient records, connected medical devices, and patient-facing digital services (see [../01-Discovery/002-organisation_profile](../01-Discovery/002-organisation_profile.md) §6). Cyber security governance, risk management, and compliance processes have not scaled at the same pace, which is the core driver behind Project SentinelCare.
+WHT has undergone rapid digital transformation over the past five years — expanding cloud adoption, electronic patient records, connected medical devices, and patient-facing digital services (see [../01-Discovery/002-organisation_profile](../01-Discovery/002-organisation_profile.md) §6). Cyber security governance, risk management, and compliance processes have not scaled at the same pace, which is the core driver behind Project SentinelCare.
 
 Governance activity currently exists but is fragmented: security policies are in place but not consistently maintained or applied across departments, and there is limited evidence of control effectiveness reporting to a central governance forum. Risk management has recently been formalised through the central Cyber Risk Register ([../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md)), which records 12 active risks (CR-001 to CR-012), 8 of which are rated High or Critical — but risk ownership is still maturing and treatment plans are largely in the Planned stage rather than embedded business-as-usual activity.
 
@@ -96,7 +94,7 @@ The Trust has limited visibility of security events across its estate, constrain
 
 ### 6.1 Findings
 
-Across all domains reviewed, a consistent pattern emerges: WUHNFT has the *documentation and structural foundations* for good governance (registers, policies, ownership models) but lacks the *operating rhythm* that turns those foundations into managed, reviewed, continuously improving practice. Asset management is the domain furthest along this maturity curve, precisely because it has recently received focused programme attention — this suggests that the same investment applied to IAM, supplier assurance, and monitoring would yield comparable gains.
+Across all domains reviewed, a consistent pattern emerges: WHT has the *documentation and structural foundations* for good governance (registers, policies, ownership models) but lacks the *operating rhythm* that turns those foundations into managed, reviewed, continuously improving practice. Asset management is the domain furthest along this maturity curve, precisely because it has recently received focused programme attention — this suggests that the same investment applied to IAM, supplier assurance, and monitoring would yield comparable gains.
 
 The risks with the highest scores in the Cyber Risk Register (ransomware, medical device exploitation, supplier compromise, patient data exposure — all scored 20-25) cluster around exactly the domains flagged as weakest in this assessment (Sections 4.1, 4.4, 4.5, 4.7), confirming that current governance gaps are not abstract — they map directly to the Trust's most severe quantified risks.
 
@@ -129,4 +127,4 @@ The underlying root cause is that cyber security governance did not scale in ste
 
 ## 9. Conclusion
 
-WUHNFT enters Project SentinelCare with real strengths to build on — most notably a newly established, well-structured asset register and a central cyber risk register — but with governance, identity and access management, supplier assurance, and security monitoring still at an early stage of maturity. The risks this creates are not hypothetical: they are the same risks already rated Critical or High in the Trust's own risk register. The framework-specific assessments that follow (NCSC CAF, ISO/IEC 27001, NHS DSPT) will validate and add granularity to this picture, and the recommendations above form the starting point for the programme's prioritisation, carried forward into [025-maturity_assessment](025-maturity_assessment.md) and the improvement roadmap in [../14-RoadMap/](../14-RoadMap/).
+WHT enters Project SentinelCare with real strengths to build on — most notably a newly established, well-structured asset register and a central cyber risk register — but with governance, identity and access management, supplier assurance, and security monitoring still at an early stage of maturity. The risks this creates are not hypothetical: they are the same risks already rated Critical or High in the Trust's own risk register. The framework-specific assessments that follow (NCSC CAF, ISO/IEC 27001, NHS DSPT) will validate and add granularity to this picture, and the recommendations above form the starting point for the programme's prioritisation, carried forward into [025-maturity_assessment](025-maturity_assessment.md) and the improvement roadmap in [../14-RoadMap/](../14-RoadMap/).

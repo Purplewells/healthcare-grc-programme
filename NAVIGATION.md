@@ -1,7 +1,5 @@
 # Programme Navigation
 
-## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
-
 This is the master index for every document in the `healthcare-grc-programme/` repository. Each numbered phase folder also has its own `README.md` with the same table scoped to that folder, plus links to the previous/next phase — use this file to jump anywhere, or the folder-level `README.md` when you're already working within a phase.
 
 ## Status Legend
@@ -30,7 +28,7 @@ New to the programme? Read in this order:
 | 02 | [Asset Management](02-Asset-Management/README.md) | ✅ Complete | 7/7 documents |
 | 03 | [Current State Assessment](03-Current-State-Assessment/README.md) | ✅ Complete | 5/5 documents |
 | 04 | [Risk Management](04-Risk-Management/README.md) | ✅ Complete | 9/9 documents |
-| 05 | [Governance](05-Governance/README.md) | ⬜ Not Started | 0/3 documents |
+| 05 | [Governance](05-Governance/README.md) | ✅ Complete | 5/5 documents |
 | 06 | [Information Governance](06-Information-Governance/README.md) | 🚧 Partial | 2/4 documents |
 | 07 | [Compliance](07-Compliance/README.md) | ⬜ Not Started | 0/4 documents |
 | 08 | [Incident Management](08-Incident-Management/README.md) | ⬜ Not Started | 0/3 documents |
@@ -49,7 +47,7 @@ New to the programme? Read in this order:
 | Document | Status | Description |
 |---|---|---|
 | [001-executive_brief](01-Discovery/001-executive_brief.md) | ✅ | Executive brief for the programme |
-| [002-organisation_profile](01-Discovery/002-organisation_profile.md) | ✅ | WUHNFT organisation profile |
+| [002-organisation_profile](01-Discovery/002-organisation_profile.md) | ✅ | WHT organisation profile |
 | [003-business-context](01-Discovery/003-business-context.md) | ✅ | Strategic drivers, risk appetite, business challenges |
 | [004-project_objectives](01-Discovery/004-project_objectives.md) | ✅ | Programme objectives and CAF outcome mapping |
 | [005-project_scope](01-Discovery/005-project_scope.md) | ✅ | In-scope / out-of-scope statement |
@@ -96,9 +94,11 @@ New to the programme? Read in this order:
 
 | Document | Status | Description |
 |---|---|---|
-| [Security_Strategy](05-Governance/Security_Strategy.md) | ⬜ | Not started |
-| [Roles_and_Responsibilities](05-Governance/Roles_and_Responsibilities.md) | ⬜ | Not started |
-| [Security_Policies/](05-Governance/Security_Policies/) | ⬜ | Empty folder |
+| [051-security_strategy](05-Governance/051-security_strategy.md) | ✅ | Security strategy; charters the Cyber Security Governance Group (closes REC-001) |
+| [052-roles_and_responsibilities](05-Governance/052-roles_and_responsibilities.md) | ✅ | Governance roles, CSGG Terms of Reference, RACI matrix |
+| [053-information_security_policy](05-Governance/053-information_security_policy.md) | ✅ | Overarching information security policy |
+| [054-access_control_policy](05-Governance/054-access_control_policy.md) | ✅ | Access control policy — addresses CAF B2 and cloud identity single point of failure |
+| [055-supplier_security_policy](05-Governance/055-supplier_security_policy.md) | ✅ | Supplier security policy — addresses third-party assurance gap |
 
 ### 06 — Information Governance
 
