@@ -1,7 +1,5 @@
 # ISO/IEC 27001 Assessment
 
-## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
-
 **Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** ISO/IEC 27001:2022 Conformance Assessment
 **Owner:** Chief Information Security Officer (CISO)

@@ -1,7 +1,5 @@
 # NCSC CAF Assessment
 
-## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
-
 **Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** NCSC Cyber Assessment Framework (CAF) Assessment
 **Owner:** Chief Information Security Officer (CISO)

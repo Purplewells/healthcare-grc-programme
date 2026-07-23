@@ -1,7 +1,5 @@
 # Third-Party Risk Assessment
 
-## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
-
 **Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** Domain Risk Assessment — Third-Party / Supplier
 **Owner:** Procurement Director

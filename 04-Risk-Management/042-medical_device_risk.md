@@ -1,7 +1,5 @@
 # Medical Device Risk Assessment
 
-## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
-
 **Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** Domain Risk Assessment — Medical Devices
 **Owner:** Clinical Engineering Manager

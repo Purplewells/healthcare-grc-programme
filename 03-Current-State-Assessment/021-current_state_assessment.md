@@ -1,7 +1,5 @@
 # Current State Assessment
 
-## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
-
 **Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** Current State Assessment (Programme Overview)
 **Owner:** Chief Information Security Officer (CISO)

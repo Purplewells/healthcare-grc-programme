@@ -1,7 +1,5 @@
 # Critical Asset Summary
 
-## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
-
 **Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** Critical Asset Summary (Derived Extract)
 **Owner:** Chief Information Security Officer (CISO)

@@ -1,7 +1,5 @@
 # Risk Heat Map
 
-## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
-
 **Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** Risk Heat Map
 **Owner:** Chief Information Security Officer (CISO)

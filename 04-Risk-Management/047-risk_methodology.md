@@ -1,7 +1,5 @@
 # Risk Methodology
 
-## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
-
 **Organisation:** Westbridge Hospitals Trust (WHT)
 **Document Type:** Risk Methodology (Authoritative)
 **Owner:** Chief Information Security Officer (CISO)
