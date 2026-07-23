@@ -10,7 +10,7 @@
 
 # 1. Purpose
 
-This policy defines how WHT applies security patches across its digital estate to reduce the window of exposure to known vulnerabilities recorded in the [vulnerability register](061-vulnerability_register.md), and supports the CAF B4 System Security principle, currently rated **Partially Achieved** ([../03-Current-State-Assessment/022-caf_assessment](../03-Current-State-Assessment/022-caf_assessment.md) §3).
+This policy defines how WHT applies security patches across its digital estate to reduce the window of exposure to known vulnerabilities recorded in the [vulnerability register](091-vulnerability_register.md), and supports the CAF B4 System Security principle, currently rated **Partially Achieved** ([../03-Current-State-Assessment/022-caf_assessment](../03-Current-State-Assessment/022-caf_assessment.md) §3).
 
 
 
@@ -24,7 +24,7 @@ This policy applies to all assets in the [master assets register](../02-Asset-Ma
 
 | Classification | Description |
 |---|---|
-| Critical/Security | Addresses a Critical or High severity vulnerability per [061-vulnerability_register](061-vulnerability_register.md) §4, or is vendor-flagged as actively exploited |
+| Critical/Security | Addresses a Critical or High severity vulnerability per [091-vulnerability_register](091-vulnerability_register.md) §4, or is vendor-flagged as actively exploited |
 | Routine | Addresses a Medium or Low severity vulnerability, or is a non-security update |
 | Feature/Optional | Functional updates with no direct security relevance |
 
@@ -32,7 +32,7 @@ This policy applies to all assets in the [master assets register](../02-Asset-Ma
 
 # 4. Patching Cadence and SLAs
 
-Patching cadence is driven by asset criticality tier, as recorded in the [critical assets register](../02-Asset-Management/026-critical_assets_register.xlsx), and aligned to the vulnerability remediation SLAs in [061-vulnerability_register](061-vulnerability_register.md) §6:
+Patching cadence is driven by asset criticality tier, as recorded in the [critical assets register](../02-Asset-Management/026-critical_assets_register.xlsx), and aligned to the vulnerability remediation SLAs in [091-vulnerability_register](091-vulnerability_register.md) §6:
 
 | Patch Classification | Standard Assets | Critical-Rated Assets |
 |---|---|---|
@@ -48,7 +48,7 @@ All patches are deployed to a test environment or representative sample before p
 
 Risk CR-003 records that unsupported medical devices carry elevated risk because "vendor patching options are limited" ([risk register](../04-Risk-Management/049-risk_register.md) §5, CR-003). This policy does not assume medical devices can be patched to the same cadence as general IT assets. Where a manufacturer does not provide a patch, or where a patch requires re-validation the manufacturer has not completed, the device is not patched outside manufacturer guidance. Instead:
 
-1. The device and its unpatched vulnerability are logged in the [vulnerability register](061-vulnerability_register.md) with status "Open — compensating controls applied."
+1. The device and its unpatched vulnerability are logged in the [vulnerability register](091-vulnerability_register.md) with status "Open — compensating controls applied."
 2. The Clinical Engineering Manager (CR-003 risk owner) and Infrastructure Manager jointly document a compensating control (network segmentation, restricted connectivity, enhanced monitoring where feasible).
 3. The exception is reviewed at the cadence in §7 and remains open until the manufacturer issues a patch or the device is decommissioned/replaced.
 
@@ -75,7 +75,7 @@ flowchart TD
     E{Manufacturer patch<br/>available and validated?}:::decision
     F[Deploy per manufacturer instructions]:::phase
     G[Log exception and compensating<br/>control per §5]:::escalation
-    H[Update 061-vulnerability_register]:::output
+    H[Update 091-vulnerability_register]:::output
 
     A --> B
     B -- No --> C

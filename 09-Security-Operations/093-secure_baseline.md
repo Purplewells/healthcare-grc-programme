@@ -42,13 +42,13 @@ This table should be read alongside §7: baseline application without a verifica
 
 # 5. Deviation and Exception Process
 
-Where an asset cannot meet the standard baseline — most commonly due to a clinical or operational dependency — the asset owner raises a documented exception with the Infrastructure Manager, recording the specific deviation, the reason, and any compensating control. Exceptions are time-bound and reviewed at the cadence in §8. This mirrors the exception process for unpatchable medical devices in [062-patch_management](062-patch_management.md) §5, since the two often arise from the same underlying constraint.
+Where an asset cannot meet the standard baseline — most commonly due to a clinical or operational dependency — the asset owner raises a documented exception with the Infrastructure Manager, recording the specific deviation, the reason, and any compensating control. Exceptions are time-bound and reviewed at the cadence in §8. This mirrors the exception process for unpatchable medical devices in [092-patch_management](092-patch_management.md) §5, since the two often arise from the same underlying constraint.
 
 
 
 # 6. Medical Devices
 
-Medical device configuration is constrained by the same factors as patching (§5 of [062-patch_management](062-patch_management.md)): manufacturers restrict configuration changes to preserve their regulatory approval and instructions for use. Where manufacturer guidance does not permit a control this standard would otherwise require, the deviation is logged as an exception (§5) rather than silently left unaddressed, consistent with the CR-003 treatment approach in [046-risk_treatment_plans](../04-Risk-Management/046-risk_treatment_plans.md).
+Medical device configuration is constrained by the same factors as patching (§5 of [092-patch_management](092-patch_management.md)): manufacturers restrict configuration changes to preserve their regulatory approval and instructions for use. Where manufacturer guidance does not permit a control this standard would otherwise require, the deviation is logged as an exception (§5) rather than silently left unaddressed, consistent with the CR-003 treatment approach in [046-risk_treatment_plans](../04-Risk-Management/046-risk_treatment_plans.md).
 
 
 
@@ -60,4 +60,4 @@ Baseline compliance is checked at build/deployment time for servers and endpoint
 
 # 8. Review and Maintenance
 
-Baselines are reviewed annually, or sooner following a material change to a supported framework (e.g. a new CIS Benchmark release) or a finding from [061-vulnerability_register](061-vulnerability_register.md) that indicates a baseline is insufficient. Open exceptions are reviewed quarterly by the Infrastructure Manager and reported to the Cyber Security Governance Group per [051-security_strategy](../05-Governance/051-security_strategy.md) §6.
+Baselines are reviewed annually, or sooner following a material change to a supported framework (e.g. a new CIS Benchmark release) or a finding from [091-vulnerability_register](091-vulnerability_register.md) that indicates a baseline is insufficient. Open exceptions are reviewed quarterly by the Infrastructure Manager and reported to the Cyber Security Governance Group per [051-security_strategy](../05-Governance/051-security_strategy.md) §6.
