@@ -1,7 +1,7 @@
 # Data Protection Impact Assessment (DPIA)
 ## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
 
-**Organisation:** Westbridge University Hospitals Foundation Trust (WUHNFT)  
+**Organisation:** Westbridge Hospitals Trust (WUHNFT)  
 **Assessment Subject:** Patient Portal and Healthcare Interoperability Platform (FHIR API)  
 **Document Type:** Data Protection Impact Assessment  
 **Owner:** Data Protection Officer (DPO)  
@@ -65,7 +65,7 @@ A DPIA is required because the solution involves:
 
 | Role | Responsibility |
 |---|---|
-| Data Controller | Westbridge University Hospitals Foundation Trust |
+| Data Controller | Westbridge Hospitals Trust |
 | Data Protection Officer | Provides privacy oversight |
 | Clinical Information Asset Owner | Ensures appropriate clinical use |
 | Cyber Security Team | Advises on security controls |

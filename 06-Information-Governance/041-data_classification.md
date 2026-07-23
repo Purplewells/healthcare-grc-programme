@@ -1,6 +1,6 @@
 # Data Classification Framework
 
-**Organisation:** Westbridge University Hospitals Foundation Trust (WUHNFT)  
+**Organisation:** Westbridge Hospitals Trust (WUHNFT)  
 **Document Type:** Data Classification Framework  
 **Owner:** Data Protection Officer (DPO) / Information Governance Team  
 **Classification:** Portfolio Case Study – Fictional Organisation  
@@ -10,7 +10,7 @@
 
 # 1. Purpose
 
-The Data Classification Framework establishes how Westbridge University Hospitals Foundation Trust identifies, categorises, and protects information based on its sensitivity, business value, and potential impact if disclosed, altered, or unavailable.
+The Data Classification Framework establishes how Westbridge Hospitals Trust identifies, categorises, and protects information based on its sensitivity, business value, and potential impact if disclosed, altered, or unavailable.
 
 The framework supports:
 

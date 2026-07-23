@@ -1,5 +1,5 @@
 # Organisation Profile  
-## Westbridge University Hospitals Foundation Trust (WUHNFT)
+## Westbridge Hospitals Trust (WUHNFT)
 
 **Project:** Project SentinelCare - Cyber Security Governance, Risk and Compliance Improvement Programme  
 **Document Type:** Organisation Profile  
@@ -8,7 +8,7 @@
 
 # 1. Introduction
 
-Westbridge University Hospitals Foundation Trust (WUHNFT) is a fictional NHS healthcare organisation created for portfolio purposes. The Trust represents a large, digitally enabled healthcare provider operating within the NHS environment and serving communities across the West Midlands region.
+Westbridge Hospitals Trust (WUHNFT) is a fictional NHS healthcare organisation created for portfolio purposes. The Trust represents a large, digitally enabled healthcare provider operating within the NHS environment and serving communities across the West Midlands region.
 
 The Trust delivers a wide range of acute, specialist, diagnostic, and community healthcare services. As a modern healthcare provider, WUHNFT relies heavily on digital technology to support clinical decision-making, improve patient outcomes, enable efficient service delivery, and maintain continuity of care.
 
@@ -18,7 +18,7 @@ Following increasing concerns about cyber threats affecting healthcare organisat
 
 # 2. Organisation Overview
 
-Westbridge University Hospitals Foundation Trust provides acute and specialist healthcare services across the West Midlands region.
+Westbridge Hospitals Trust provides acute and specialist healthcare services across the West Midlands region.
 
 The Trust operates a combination of hospital-based and community healthcare facilities, supporting both routine and emergency healthcare delivery.
 
@@ -43,7 +43,7 @@ The Trust provides healthcare services to approximately:
 
 Due to the scale and complexity of its operations, maintaining secure and resilient digital services is critical to patient safety and operational continuity.
 
-As an NHS Foundation Trust, WUHNFT is regulated by the Care Quality Commission (CQC) and works within the wider NHS oversight structure alongside its local Integrated Care Board (ICB). Foundation Trust status also brings a Council of Governors, representing patients, staff, and the public in the Trust's governance (see [006-stakeholders.md](006-stakeholders.md) for full stakeholder detail).
+As an NHS Foundation Trust, WUHNFT is regulated by the Care Quality Commission (CQC) and works within the wider NHS oversight structure alongside its local Integrated Care Board (ICB). Foundation Trust status also brings a Council of Governors, representing patients, staff, and the public in the Trust's governance (see [006-stakeholders](006-stakeholders.md) for full stakeholder detail).
 
 # 3. Mission and Strategic Purpose
 
@@ -224,7 +224,7 @@ The confidentiality, integrity, and availability of these assets are essential t
 
 # 9. Stakeholder Landscape
 
-Cyber security governance requires collaboration across executive, clinical, digital, governance, and external functions of the Trust. The full stakeholder register, including roles, responsibilities, and level of interest in the programme, is maintained in [006-stakeholders.md](006-stakeholders.md).
+Cyber security governance requires collaboration across executive, clinical, digital, governance, and external functions of the Trust. The full stakeholder register, including roles, responsibilities, and level of interest in the programme, is maintained in [006-stakeholders](006-stakeholders.md).
 
 
 # 10. Cyber Security Context

@@ -2,7 +2,7 @@
 
 ## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
 
-**Organisation:** Westbridge University Hospitals Foundation Trust (WUHNFT)
+**Organisation:** Westbridge Hospitals Trust (WUHNFT)
 **Document Type:** ISO/IEC 27001:2022 Conformance Assessment
 **Owner:** Chief Information Security Officer (CISO)
 **Classification:** Portfolio Case Study – Fictional Organisation
@@ -12,7 +12,7 @@
 
 ### 1.1 Purpose
 
-This assessment measures WUHNFT's current conformance with ISO/IEC 27001:2022, at the Annex A control-theme level, as part of the Trust's aspiration to work towards a certifiable Information Security Management System (ISMS). It builds on [021-current_state_assessment.md](021-current_state_assessment.md) and complements the NCSC CAF assessment ([022-caf_assessment.md](022-caf_assessment.md)), which assesses the same underlying capability against a UK critical-national-infrastructure-oriented framework rather than a certifiable management-system standard.
+This assessment measures WUHNFT's current conformance with ISO/IEC 27001:2022, at the Annex A control-theme level, as part of the Trust's aspiration to work towards a certifiable Information Security Management System (ISMS). It builds on [021-current_state_assessment](021-current_state_assessment.md) and complements the NCSC CAF assessment ([022-caf_assessment](022-caf_assessment.md)), which assesses the same underlying capability against a UK critical-national-infrastructure-oriented framework rather than a certifiable management-system standard.
 
 ### 1.2 Scope
 
@@ -35,7 +35,7 @@ ISO/IEC 27001:2022 Annex A, comprising 93 controls across four themes: Organizat
 
 ## 3. Current State
 
-WUHNFT's conformance is strongest in Physical controls, reflecting the Trust's existing estate and facilities management practices for its hospital sites and data centres, though this has not been subject to a dedicated review in this engagement and is assessed on the absence of contrary evidence rather than direct testing. Organizational and Technological controls are Partially Implemented, mirroring the governance fragmentation and technical control gaps identified in [021-current_state_assessment.md](021-current_state_assessment.md) and [022-caf_assessment.md](022-caf_assessment.md). People controls are Partially Implemented, with the clearest gap being security awareness training completion.
+WUHNFT's conformance is strongest in Physical controls, reflecting the Trust's existing estate and facilities management practices for its hospital sites and data centres, though this has not been subject to a dedicated review in this engagement and is assessed on the absence of contrary evidence rather than direct testing. Organizational and Technological controls are Partially Implemented, mirroring the governance fragmentation and technical control gaps identified in [021-current_state_assessment](021-current_state_assessment.md) and [022-caf_assessment](022-caf_assessment.md). People controls are Partially Implemented, with the clearest gap being security awareness training completion.
 
 | Theme | Control Count | Assessed Conformance | Representative Gap |
 |---|---:|---|---|
@@ -48,11 +48,11 @@ WUHNFT's conformance is strongest in Physical controls, reflecting the Trust's e
 
 ### 4.1 Organizational Controls are Partially Implemented
 
-Information security policies exist (A.5.1) but are not consistently applied across departments, and supplier relationship security controls (A.5.19-A.5.23) are the weakest area within this theme, with no central supplier security assessment process despite more than 150 active suppliers. (Ref: [021-current_state_assessment.md](021-current_state_assessment.md) §4.1, §4.5)
+Information security policies exist (A.5.1) but are not consistently applied across departments, and supplier relationship security controls (A.5.19-A.5.23) are the weakest area within this theme, with no central supplier security assessment process despite more than 150 active suppliers. (Ref: [021-current_state_assessment](021-current_state_assessment.md) §4.1, §4.5)
 
 ### 4.2 People Controls are Partially Implemented
 
-Screening and terms-of-employment controls are assumed to follow standard NHS HR process, but security awareness and training (A.6.3) is a documented gap, with low training completion rates recorded against risk CR-008. (Ref: [../04-Risk-Management/risk_register.md](../04-Risk-Management/risk_register.md) CR-008)
+Screening and terms-of-employment controls are assumed to follow standard NHS HR process, but security awareness and training (A.6.3) is a documented gap, with low training completion rates recorded against risk CR-008. (Ref: [../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md) CR-008)
 
 ### 4.3 Physical Controls are Assessed as Largely Implemented, Pending Direct Verification
 
@@ -60,16 +60,16 @@ No evidence gathered during this engagement identifies weaknesses in physical se
 
 ### 4.4 Technological Controls are Partially Implemented
 
-Access control (A.8.2-A.8.5), backup (A.8.13), security monitoring and logging (A.8.15-A.8.16), and vulnerability/patch management for legacy medical devices (A.8.8) are all documented gaps, consistent with findings already recorded in the Cyber Risk Register and the medical device register. (Ref: [../04-Risk-Management/risk_register.md](../04-Risk-Management/risk_register.md) CR-003, CR-004, CR-009, CR-011; [../02-Asset-Management/024-medical_device_register.xlsx](../02-Asset-Management/024-medical_device_register.xlsx))
+Access control (A.8.2-A.8.5), backup (A.8.13), security monitoring and logging (A.8.15-A.8.16), and vulnerability/patch management for legacy medical devices (A.8.8) are all documented gaps, consistent with findings already recorded in the Cyber Risk Register and the medical device register. (Ref: [../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md) CR-003, CR-004, CR-009, CR-011; [../02-Asset-Management/024-medical_device_register.xlsx](../02-Asset-Management/024-medical_device_register.xlsx))
 
 ## 5. Evidence
 
 | Evidence ID | Description | Source | Date | Linked Observation |
 |---|---|---|---|---|
 | EVD-001 | Supplier Register with no central assurance process across 11 sampled suppliers | [../02-Asset-Management/025-supplier_register.xlsx](../02-Asset-Management/025-supplier_register.xlsx) | 2026-07-23 | 4.1 |
-| EVD-002 | CR-008 Security awareness failure, scored 16 (High) | [../04-Risk-Management/risk_register.md](../04-Risk-Management/risk_register.md) CR-008 | 2026-07-23 | 4.2 |
+| EVD-002 | CR-008 Security awareness failure, scored 16 (High) | [../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md) CR-008 | 2026-07-23 | 4.2 |
 | EVD-003 | Medical Device Register — 2 of 11 sampled devices flagged unsupported | [../02-Asset-Management/024-medical_device_register.xlsx](../02-Asset-Management/024-medical_device_register.xlsx) | 2026-07-23 | 4.4 |
-| EVD-004 | CR-004, CR-009, CR-011 — access, monitoring, and backup risks all High or Critical | [../04-Risk-Management/risk_register.md](../04-Risk-Management/risk_register.md) | 2026-07-23 | 4.4 |
+| EVD-004 | CR-004, CR-009, CR-011 — access, monitoring, and backup risks all High or Critical | [../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md) | 2026-07-23 | 4.4 |
 | EVD-005 | Detailed control-by-control mapping (working papers) | [../07-Compliance/ISO27001_Control_Mapping.xlsx](../07-Compliance/ISO27001_Control_Mapping.xlsx) | 2026-07-23 | 4.1-4.4 |
 
 ## 6. Analysis
@@ -106,4 +106,4 @@ As with the CAF assessment, the root cause is that security control implementati
 
 ## 9. Conclusion
 
-WUHNFT's ISO/IEC 27001:2022 conformance position is Partially Implemented across three of four Annex A themes, with Physical controls provisionally rated Largely Implemented pending direct verification. The strong overlap with the CAF assessment findings in [022-caf_assessment.md](022-caf_assessment.md) — particularly around supplier assurance, access control, and monitoring — indicates these are genuine cross-framework priorities rather than assessment artefacts, and should be treated as shared inputs to the single improvement roadmap in [../14-RoadMap/](../14-RoadMap/) rather than addressed as separate ISO and CAF workstreams. Establishing a formally scoped ISMS is the key structural recommendation that would allow future control improvements to compound rather than remain isolated.
+WUHNFT's ISO/IEC 27001:2022 conformance position is Partially Implemented across three of four Annex A themes, with Physical controls provisionally rated Largely Implemented pending direct verification. The strong overlap with the CAF assessment findings in [022-caf_assessment](022-caf_assessment.md) — particularly around supplier assurance, access control, and monitoring — indicates these are genuine cross-framework priorities rather than assessment artefacts, and should be treated as shared inputs to the single improvement roadmap in [../14-RoadMap/](../14-RoadMap/) rather than addressed as separate ISO and CAF workstreams. Establishing a formally scoped ISMS is the key structural recommendation that would allow future control improvements to compound rather than remain isolated.

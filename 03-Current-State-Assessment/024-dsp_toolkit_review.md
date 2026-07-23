@@ -2,7 +2,7 @@
 
 ## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
 
-**Organisation:** Westbridge University Hospitals Foundation Trust (WUHNFT)
+**Organisation:** Westbridge Hospitals Trust (WUHNFT)
 **Document Type:** NHS DSPT Readiness Review
 **Owner:** Chief Information Security Officer (CISO)
 **Classification:** Portfolio Case Study – Fictional Organisation
@@ -12,7 +12,7 @@
 
 ### 1.1 Purpose
 
-This review assesses WUHNFT's readiness against the NHS Data Security and Protection Toolkit (DSPT), the annual self-assessment through which NHS organisations evidence compliance with the National Data Guardian's 10 Data Security Standards. It answers the question: *if the Trust submitted its DSPT today, what outcome would it achieve, and what stands in the way of "Standards Met"?* It draws on the same evidence base as [021-current_state_assessment.md](021-current_state_assessment.md), [022-caf_assessment.md](022-caf_assessment.md), and [023-ISO27001_assessment.md](023-ISO27001_assessment.md), since the current DSPT incorporates CAF-aligned assertions.
+This review assesses WUHNFT's readiness against the NHS Data Security and Protection Toolkit (DSPT), the annual self-assessment through which NHS organisations evidence compliance with the National Data Guardian's 10 Data Security Standards. It answers the question: *if the Trust submitted its DSPT today, what outcome would it achieve, and what stands in the way of "Standards Met"?* It draws on the same evidence base as [021-current_state_assessment](021-current_state_assessment.md), [022-caf_assessment](022-caf_assessment.md), and [023-ISO27001_assessment](023-ISO27001_assessment.md), since the current DSPT incorporates CAF-aligned assertions.
 
 ### 1.2 Scope
 
@@ -44,7 +44,7 @@ Overall submission outcome (DSPT publishes one of three outcomes per organisatio
 
 ## 3. Current State
 
-Based on the evidence gathered across this engagement, WUHNFT would currently achieve a **Standards Not Met** outcome if it submitted its DSPT today, with the most material gaps in Standard 8 (Unsupported Systems), Standard 10 (Accountable Suppliers), Standard 4 (Managing Data Access), and Standard 3 (Training). This is a direct, material consequence flagged in [../01-Discovery/003-business-context.md](../01-Discovery/003-business-context.md) §2.3: a "Standards Not Met" outcome can restrict the Trust's access to shared national systems such as the NHS Spine and shared care record services.
+Based on the evidence gathered across this engagement, WUHNFT would currently achieve a **Standards Not Met** outcome if it submitted its DSPT today, with the most material gaps in Standard 8 (Unsupported Systems), Standard 10 (Accountable Suppliers), Standard 4 (Managing Data Access), and Standard 3 (Training). This is a direct, material consequence flagged in [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md) §2.3: a "Standards Not Met" outcome can restrict the Trust's access to shared national systems such as the NHS Spine and shared care record services.
 
 | Standard | Description | Assessed Status |
 |---|---|---|
@@ -63,23 +63,23 @@ Based on the evidence gathered across this engagement, WUHNFT would currently ac
 
 ### 4.1 Standard 8 (Unsupported Systems) is Not Met
 
-25 medical devices are recorded as running unsupported operating systems with limited vendor patching options, which is a direct, named evidence item under Standard 8. (Ref: [../02-Asset-Management/024-medical_device_register.xlsx](../02-Asset-Management/024-medical_device_register.xlsx); [../01-Discovery/003-business-context.md](../01-Discovery/003-business-context.md) §3.4)
+25 medical devices are recorded as running unsupported operating systems with limited vendor patching options, which is a direct, named evidence item under Standard 8. (Ref: [../02-Asset-Management/024-medical_device_register.xlsx](../02-Asset-Management/024-medical_device_register.xlsx); [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md) §3.4)
 
 ### 4.2 Standard 10 (Accountable Suppliers) is Not Met
 
-The Trust has no central process for assessing supplier security posture, embedding security requirements into contracts, or monitoring ongoing supplier risk across its 150+ suppliers. (Ref: [../02-Asset-Management/025-supplier_register.xlsx](../02-Asset-Management/025-supplier_register.xlsx); [../01-Discovery/003-business-context.md](../01-Discovery/003-business-context.md) §3.5)
+The Trust has no central process for assessing supplier security posture, embedding security requirements into contracts, or monitoring ongoing supplier risk across its 150+ suppliers. (Ref: [../02-Asset-Management/025-supplier_register.xlsx](../02-Asset-Management/025-supplier_register.xlsx); [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md) §3.5)
 
 ### 4.3 Standard 4 (Managing Data Access) is Not Met
 
-Excessive user access privileges, inadequate access reviews, and weak segregation of duties were identified in an internal review, and remain an open, High-rated risk. (Ref: [../04-Risk-Management/risk_register.md](../04-Risk-Management/risk_register.md) CR-004; [../01-Discovery/003-business-context.md](../01-Discovery/003-business-context.md) §3.3)
+Excessive user access privileges, inadequate access reviews, and weak segregation of duties were identified in an internal review, and remain an open, High-rated risk. (Ref: [../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md) CR-004; [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md) §3.3)
 
 ### 4.4 Standard 3 (Training) is Not Met
 
-Security awareness training completion is low, with no evidenced Trust-wide tracking or reporting of completion rates to a governance forum. (Ref: [../04-Risk-Management/risk_register.md](../04-Risk-Management/risk_register.md) CR-008)
+Security awareness training completion is low, with no evidenced Trust-wide tracking or reporting of completion rates to a governance forum. (Ref: [../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md) CR-008)
 
 ### 4.5 Standards 1, 2, 5, 6, 7, and 9 are Partially Met
 
-Personal Confidential Data handling (Standard 1) is undermined by inconsistent data classification and uncontrolled copies of patient reports (Standard 1); process review (Standard 5) and IT protection (Standard 9) benefit from a newly established risk register and asset register but lack a full review cadence; incident response (Standard 6) and continuity planning (Standard 7) have documented plans ([../08-Incident-Management/](../08-Incident-Management/), [../10-Business-Continuity/](../10-Business-Continuity/)) but inconsistent testing evidence. (Ref: [021-current_state_assessment.md](021-current_state_assessment.md) §4.7)
+Personal Confidential Data handling (Standard 1) is undermined by inconsistent data classification and uncontrolled copies of patient reports (Standard 1); process review (Standard 5) and IT protection (Standard 9) benefit from a newly established risk register and asset register but lack a full review cadence; incident response (Standard 6) and continuity planning (Standard 7) have documented plans ([../08-Incident-Management/](../08-Incident-Management/), [../10-Business-Continuity/](../10-Business-Continuity/)) but inconsistent testing evidence. (Ref: [021-current_state_assessment](021-current_state_assessment.md) §4.7)
 
 ## 5. Evidence
 
@@ -87,8 +87,8 @@ Personal Confidential Data handling (Standard 1) is undermined by inconsistent d
 |---|---|---|---|---|
 | EVD-001 | Medical Device Register — unsupported OS devices | [../02-Asset-Management/024-medical_device_register.xlsx](../02-Asset-Management/024-medical_device_register.xlsx) | 2026-07-23 | 4.1 |
 | EVD-002 | Supplier Register — no central assurance process | [../02-Asset-Management/025-supplier_register.xlsx](../02-Asset-Management/025-supplier_register.xlsx) | 2026-07-23 | 4.2 |
-| EVD-003 | CR-004 Excessive user access privileges, scored 16 (High) | [../04-Risk-Management/risk_register.md](../04-Risk-Management/risk_register.md) CR-004 | 2026-07-23 | 4.3 |
-| EVD-004 | CR-008 Security awareness failure, scored 16 (High) | [../04-Risk-Management/risk_register.md](../04-Risk-Management/risk_register.md) CR-008 | 2026-07-23 | 4.4 |
+| EVD-003 | CR-004 Excessive user access privileges, scored 16 (High) | [../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md) CR-004 | 2026-07-23 | 4.3 |
+| EVD-004 | CR-008 Security awareness failure, scored 16 (High) | [../04-Risk-Management/risk_register](../04-Risk-Management/risk_register.md) CR-008 | 2026-07-23 | 4.4 |
 | EVD-005 | Incident Response Plan, Business Continuity Plan, Disaster Recovery Plan | [../08-Incident-Management/](../08-Incident-Management/), [../10-Business-Continuity/](../10-Business-Continuity/) | 2026-07-23 | 4.5 |
 | EVD-006 | Detailed DSPT evidence mapping (working papers) | [../07-Compliance/NHS_DSP_Toolkit_Mapping.xlsx](../07-Compliance/NHS_DSP_Toolkit_Mapping.xlsx) | 2026-07-23 | 4.1-4.5 |
 
@@ -123,4 +123,4 @@ The DSPT is explicitly evidence-based: it requires named artefacts (asset invent
 
 ## 9. Conclusion
 
-WUHNFT would currently achieve a **Standards Not Met** DSPT outcome, driven primarily by four standards — Training, Managing Data Access, Unsupported Systems, and Accountable Suppliers — that are also the leading gaps identified independently in the CAF and ISO 27001 assessments. Given the timing risk associated with the annual DSPT submission cycle, the immediate priority is agreeing a formal improvement plan with NHS England to secure a "Standards Not Met (Plan Agreed)" position while the underlying recommendations in this document, [022-caf_assessment.md](022-caf_assessment.md), and [023-ISO27001_assessment.md](023-ISO27001_assessment.md) are delivered, protecting the Trust's access to shared national systems in the interim.
+WUHNFT would currently achieve a **Standards Not Met** DSPT outcome, driven primarily by four standards — Training, Managing Data Access, Unsupported Systems, and Accountable Suppliers — that are also the leading gaps identified independently in the CAF and ISO 27001 assessments. Given the timing risk associated with the annual DSPT submission cycle, the immediate priority is agreeing a formal improvement plan with NHS England to secure a "Standards Not Met (Plan Agreed)" position while the underlying recommendations in this document, [022-caf_assessment](022-caf_assessment.md), and [023-ISO27001_assessment](023-ISO27001_assessment.md) are delivered, protecting the Trust's access to shared national systems in the interim.

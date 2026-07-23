@@ -1,7 +1,7 @@
 # Cyber Risk Register
 ## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
 
-**Organisation:** Westbridge University Hospitals Foundation Trust (WUHNFT)  
+**Organisation:** Westbridge Hospitals Trust (WUHNFT)  
 **Document Type:** Cyber Risk Register  
 **Owner:** Chief Information Security Officer (CISO)  
 **Classification:** Portfolio Case Study – Fictional Organisation  
@@ -11,7 +11,7 @@
 
 # 1. Purpose
 
-The Cyber Risk Register provides a structured approach for identifying, assessing, treating, and monitoring cybersecurity risks affecting Westbridge University Hospitals Foundation Trust.
+The Cyber Risk Register provides a structured approach for identifying, assessing, treating, and monitoring cybersecurity risks affecting Westbridge Hospitals Trust.
 
 The register supports:
 

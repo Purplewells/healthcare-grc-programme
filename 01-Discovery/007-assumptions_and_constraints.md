@@ -15,7 +15,7 @@ The assumptions provide a realistic foundation for the assessment while recognis
 
 | ID | Assumption |
 |---|---|
-| A-001 | Westbridge University Hospitals Foundation Trust is a fictional NHS organisation created for cybersecurity portfolio demonstration purposes. |
+| A-001 | Westbridge Hospitals Trust is a fictional NHS organisation created for cybersecurity portfolio demonstration purposes. |
 | A-002 | The Trust operates within a similar regulatory environment to NHS healthcare providers in England. |
 | A-003 | The Trust has an established IT function responsible for supporting clinical and corporate technology services. |
 | A-004 | Cybersecurity is managed as part of the Trust's wider information governance and enterprise risk management approach. |
@@ -153,7 +153,7 @@ The assumptions provide a realistic foundation for the assessment while recognis
 | C-008 | Security controls are assessed conceptually rather than through live technical validation. |
 | C-009 | Evidence samples are assumed for demonstration purposes. |
 | C-010 | The assessment does not replace a formal NHS DSP Toolkit submission or ISO certification audit. |
-| C-011 | The assessment aligns to the NHS DSP Toolkit's evidence structure to support future submission readiness but does not itself constitute a DSPT submission (see [005-project_scope.md](005-project_scope.md)). |
+| C-011 | The assessment aligns to the NHS DSP Toolkit's evidence structure to support future submission readiness but does not itself constitute a DSPT submission (see [005-project_scope](005-project_scope.md)). |
 
 
 

@@ -2,7 +2,7 @@
 
 ## Project SentinelCare – Cyber Security Governance, Risk and Compliance Improvement Programme
 
-**Organisation:** Westbridge University Hospitals Foundation Trust (WUHNFT)
+**Organisation:** Westbridge Hospitals Trust (WUHNFT)
 **Document Type:** Critical Asset Summary (Derived Extract)
 **Owner:** Chief Information Security Officer (CISO)
 **Classification:** Portfolio Case Study – Fictional Organisation
@@ -12,7 +12,7 @@
 
 This document summarises the assets rated **Critical** business criticality in the authoritative asset inventory, [022-master_assets_register.xlsx](022-master_assets_register.xlsx). It is a derived extract for quick reference in risk, resilience, and incident response discussions — not a second source of truth. Any discrepancy between this summary and the register should be resolved in favour of the register.
 
-18 of the 35 assets in the register (AST-001 to AST-035) are rated Critical, reflecting their direct link to patient safety, clinical service continuity, or the confidentiality of highly sensitive information, consistent with the Trust's risk appetite set out in [../01-Discovery/003-business-context.md](../01-Discovery/003-business-context.md).
+18 of the 35 assets in the register (AST-001 to AST-035) are rated Critical, reflecting their direct link to patient safety, clinical service continuity, or the confidentiality of highly sensitive information, consistent with the Trust's risk appetite set out in [../01-Discovery/003-business-context](../01-Discovery/003-business-context.md).
 
 # 2. Critical Assets by Category
 
@@ -76,6 +76,6 @@ This document summarises the assets rated **Critical** business criticality in t
 # 4. Relationship to Other Documents
 
 - Authoritative asset data: [022-master_assets_register.xlsx](022-master_assets_register.xlsx).
-- Narrative context and classification schemes: [021-digital_asset_estate.md](021-digital_asset_estate.md).
+- Narrative context and classification schemes: [021-digital_asset_estate](021-digital_asset_estate.md).
 - Domain-specific extracts: [023-application_portfolio.xlsx](023-application_portfolio.xlsx), [024-medical_device_register.xlsx](024-medical_device_register.xlsx), [025-supplier_register.xlsx](025-supplier_register.xlsx).
 - Risk treatment of asset-related findings: `04-Risk-Management`.
